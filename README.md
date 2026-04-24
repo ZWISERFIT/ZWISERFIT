@@ -217,3 +217,13 @@ AI为普通实体创业者，打开公平逆袭的时代窗口。
 只是一位普通人、十年实体创业女性，
 在AI新时代，以一人之心力，借AI千军，
 走出的一条真实、坚韧、可复制的逆袭之路。
+
+---
+
+## 📬 联系与共建
+
+- **技术问题 / 功能建议**：欢迎提交 [GitHub Issue](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/issues)
+- **生态合作 / 投资接洽**：发送邮件至 founder@zwiserfit.com
+- **加入生态联盟**：查看 [生态联盟加入指南](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/blob/main/ecosystem/join.md)
+
+> ⚠ 邮件标题请注明 `[ZWISERFIT合作] - 您的公司/姓名`，以便快速识别并回复。
