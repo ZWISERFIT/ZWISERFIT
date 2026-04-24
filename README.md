@@ -1,4 +1,4 @@
-> 🔧 **想了解技术架构与部署方式？** → [查看技术支撑版](./README.md)
+> 🔧 **想了解技术架构与部署方式？** → [查看技术支撑版](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
 
 # ZWISERFIT
 > **愿景｜AI Agent驱动 健康行为数据资产化开源协议层**
