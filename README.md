@@ -82,13 +82,16 @@ ZWISERFIT核心解法：
 拒绝低效闲聊式AI工具，专注打造
 **AI训练AI、AI管理AI、AI迭代AI**
 的实体商业协同操作系统。
-￼
-创始人・全局战略决策者↓Shuyu 集团总指挥・OpenClaw（全域战略调度 & 广度生态连接）├─ Momo 门店数字店长・Hermes Agent（门店场景深度自主进化）├─ effect_lead 效果信任官├─ tech_lead 数据资产官├─ brand_lead 全域流量增长官└─ security_lead 全链路安全官
-plaintext
-￼
-￼
-￼
-￼
+
+创始人・全局战略决策者
+↓
+Shuyu 集团总指挥・OpenClaw（全域战略调度 & 广度生态连接）
+├─ Momo 门店数字店长・Hermes Agent（门店场景深度自主进化）
+├─ effect_lead 效果信任官
+├─ tech_lead 数据资产官
+├─ brand_lead 全域流量增长官
+└─ security_lead 全链路安全官
+
 **技术核心优势**：
 深度适配 OpenClaw 与 Hermes Agent 两大主流开源框架，依托双引擎能力互补，深耕线下实体商用场景，
 构建多智能体协同运营体系，针对性解决行业AI落地难、场景适配弱、无法自主迭代的普遍痛点。
