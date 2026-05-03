@@ -55,6 +55,50 @@ ZWISERFIT｜以线下实体门店为根基，
 ]()
 
 ---
+
+## 🚧 Project Status · 项目当前状态
+
+> **⚠️ CURRENT STAGE: MVP — Tackling Data Source Integration**
+> **当前阶段：MVP — 攻克数据源接入难题**
+
+**Our Mission · 我们的使命：**
+> Rebuilding trust from the physical world up. Not blockchain narratives — real sweat, real stores, real data.
+> **从物理世界重构信任。** 不是区块链叙事——是真实的汗水、真实的门店、真实的数据。
+
+### What Works Today · 已验证能力
+
+| ✅ | Capability · 能力 | Status · 状态 |
+|:---:|------|------|
+| ✅ | AI Legion multi-agent chain of command · AI军团多智能体指挥链 | Shuyu → Tristan → Momo |
+| ✅ | AI Store Manager daily operations · AI店长日常运营 | Momo via 企微群聊 |
+| ✅ | Member face registration workflow · 会员人脸录入流程 | ZWF-20 操作规范已验证 |
+| ✅ | Open-source daily data commits · 每日运营数据开源提交 | GitHub 公开可查 |
+| ✅ | Community Constitution · 社区宪法 | [CONSTITUTION.md](./CONSTITUTION.md) |
+
+### Critical Challenges We're Solving · 正在攻克的核心难题
+
+| 🔴 | Challenge · 挑战 | Impact · 影响 |
+|:---:|------|------|
+| 🔴 | **Face recognition data pipeline not connected** <br/>人脸机打卡数据通路未打通 | Real-time foot traffic / attendance data unavailable<br/>实时客流/到店数据不可用 |
+| 🔴 | **AI data hallucination in reporting** <br/>AI汇报数据"脑补"问题 | Now mitigated: all reports must declare data source tier (L1/L2/L3)<br/>已缓解：所有汇报必须标注数据来源级别 |
+| 🟡 | **Member-device ID mapping in test phase** <br/>会员-设备映射仅测试用 | 118 test records only, not production-ready<br/>118条测试记录，未达到生产级别 |
+| 🟡 | **Sales/POS system not integrated** <br/>收银系统未对接 | Revenue data unavailable from system<br/>销售额数据无法从系统获取 |
+
+### We Need You · 我们需要你
+
+> 🏷️ **🆘 Hiring: Embedded Systems / Hardware / IoT Engineers**
+> 🏷️ **🆘 招募：嵌入式系统 / 硬件 / IoT 工程师**
+>
+> - If you can connect a **ZWF-20 face recognition terminal** to a Linux server, we need you.
+> - If you've built **middleware for IoT devices**, we need you.
+> - If you understand **RS-485, MQTT, or edge computing** and want to apply it to real physical stores, we need you.
+> - **No blockchain experience required.** We start from hardware, not whitepapers.
+>
+> 📌 See open issues tagged `help wanted` → [Issues](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/issues)
+> 📌 Read our Constitution → [CONSTITUTION.md](./CONSTITUTION.md)
+
+---
+
 ## 💎 产品价值：把市场教育最难的事，变成正反馈利润引擎
 健身行业最高隐形成本，从来不是房租、器械与人力，而是漫长且低效的
 **市场教育**
