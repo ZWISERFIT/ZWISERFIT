@@ -1,5 +1,10 @@
 > 🔧 **想了解技术架构与部署方式？** → [查看技术支撑版](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
 
+> 🔗 **Web5 原生落地验证**: [ZWISERFIT Web5 第一产品案例](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/AIreports/ZWISERFIT-Web5-%E7%AC%AC%E4%B8%80%E4%BA%A7%E5%93%81%E6%A1%88%E4%BE%8B.md)
+> SHA-256: `99e18bd7f8c50e56ebe3d71a692713711b55d07e042f29dedddb33f5afa1f9a3`
+> Stella 审计签名: ✅ VERIFIED | 联盟链 TX: `zwf-consortium-1777983830-c856b8c6`
+> 独立验证: `sha256sum ZWISERFIT-Web5-第一产品案例.md`
+
 # ZWISERFIT
 > **愿景｜AI Agent驱动 健康行为数据资产化开源协议层**
 
@@ -99,6 +104,37 @@ ZWISERFIT｜以线下实体门店为根基，
 
 ---
 
+## ⚡ 5分钟快速上手：从零部署 Momo 数字店长
+
+只需 5 步，将 AI 店长接入你的门店：
+
+```bash
+# 1️⃣ 克隆 ZWISERFIT 组织仓库
+git clone https://github.com/ZWISERFIT/ZWISERFIT.git
+cd ZWISERFIT
+
+# 2️⃣ 安装 OpenClaw 框架（需 Node.js ≥ 18）
+npm install -g openclaw
+openclaw --version  # 验证安装，应显示 ≥ 2026.4.15
+
+# 3️⃣ 初始化 AI 军团配置
+openclaw init --profile momo-store
+# 按提示填写：门店名称、企微 Webhook URL、数据库路径
+
+# 4️⃣ 启动 Momo 数字店长
+openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
+
+# 5️⃣ 验证部署：发送测试消息
+openclaw message send --agent momo --content "Momo，生成今日运营简报"
+```
+
+✅ **完成！** Momo 已就绪。前往企业微信群聊发送 `@Momo 你好` 验证实时响应。
+
+> 📖 完整部署文档 → [技术支撑版仓库](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
+> 🆘 遇到问题？→ [提交 Issue](https://github.com/ZWISERFIT/ZWISERFIT/issues) 或阅读 [贡献指南](./CONTRIBUTING.md)
+
+---
+
 ## 💎 产品价值：把市场教育最难的事，变成正反馈利润引擎
 健身行业最高隐形成本，从来不是房租、器械与人力，而是漫长且低效的
 **市场教育**
@@ -139,6 +175,40 @@ Shuyu 集团总指挥・OpenClaw（全域战略调度 & 广度生态连接）
 **技术核心优势**：
 深度适配 OpenClaw 与 Hermes Agent 两大主流开源框架，依托双引擎能力互补，深耕线下实体商用场景，
 构建多智能体协同运营体系，针对性解决行业AI落地难、场景适配弱、无法自主迭代的普遍痛点。
+
+### 🌐 Web5 六层数据资产架构 | Web5 Six-Layer Data Asset Architecture
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│  L6  边界隔离层 · Boundary Isolation                              │
+│      境内合规积分 ⇄ 境外资产运营 · 双法律实体严格隔离架构          │
+│      惠鑫健康（境内实体运营）∥ 智爱动数字科技（境外数据研发）      │
+├──────────────────────────────────────────────────────────────────┤
+│  L5  链上存证层 · On-chain Verification                          │
+│      联盟链 TX 哈希锚定 · Stella 安全审计签名 · 不可篡改时间戳    │
+│      SHA-256 指纹: 99e18bd…a1f9a3 · TX: zwf-consortium-…        │
+├──────────────────────────────────────────────────────────────────┤
+│  L4  分层蒸馏层 · Layered Distillation                           │
+│      L1 实测数据 → L2 测试衍生数据 → L3 历史参考数据              │
+│      AI 清洗 → 脱敏处理 → 质量标注 → 分级萃取                     │
+├──────────────────────────────────────────────────────────────────┤
+│  L3  DKG 分布式知识图谱 · Distributed Knowledge Graph             │
+│      会员行为画像 · 运动能力演进图谱 · 跨场景数据语义互通          │
+│      实体门店 → 瑜伽/康复/球类 · 多业态健康数据联邦               │
+├──────────────────────────────────────────────────────────────────┤
+│  L2  AV 资产金库 · Asset Vault                                   │
+│      脱敏行为数据包 · ZWF-20 行业标准封装 · 可确权数字资产单元     │
+│      RWA 合规资产包 · 全链路溯源凭证 · 用户授权可查               │
+├──────────────────────────────────────────────────────────────────┤
+│  L1  DT 数据令牌 · Data Token                                    │
+│      人脸打卡 · 体测数据 · 训练记录 · 门店客流 · POS 消费         │
+│      全员知情授权 · 实时采集 · 原始数据不可篡改                    │
+└──────────────────────────────────────────────────────────────────┘
+          ▲ 物理世界 Physical World             数字世界 Digital World ▲
+          门店 · 会员 · 教练 · 器械              链上 · AI · 合规 · 互通
+```
+
+> 📐 六层架构设计原则：**数据主权在民（L1）→ 标准封装确权（L2）→ 知识图谱互通（L3）→ 分层可信萃取（L4）→ 链上不可篡改（L5）→ 法律边界合规（L6）**
 
 ---
 ## 🏰 六维永久护城河：立足实体根基，锁定时代长期红利
@@ -266,7 +336,20 @@ AI为普通实体创业者，打开公平逆袭的时代窗口。
 
 ## 📬 联系与共建
 
-- **技术问题 / 功能建议**：欢迎提交 [GitHub Issue](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/issues)
+### 🤝 参与贡献
+
+ZWISERFIT 是社区共建的开源基础设施。每一位贡献者都在塑造未来健康数据行业标准。
+
+| 入口 | 说明 |
+|:---|:---|
+| 📖 [贡献指南 CONTRIBUTING.md](./CONTRIBUTING.md) | 如何提交 Issue / PR / 文档改进 · 分支命名 · commit 规范 · 首次贡献者指南 |
+| 🤝 [行为准则 CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) | 社区核心价值观 · 不可接受行为 · 举报与处理机制 |
+| 🏛️ [社区宪法 CONSTITUTION.md](./CONSTITUTION.md) | 数据主权 · 物理信任 · 开源真透明 · AI 协同原则 |
+| 🐛 [提交 Issue](https://github.com/ZWISERFIT/ZWISERFIT/issues) | Bug 报告 / 功能请求（提供标准化模板） |
+
+### 📧 联系方式
+
+- **技术问题 / 功能建议**：欢迎提交 [GitHub Issue](https://github.com/ZWISERFIT/ZWISERFIT/issues)
 - **生态合作 / 投资接洽**：发送邮件至 founder@zwiserfit.com
 - **加入生态联盟**：查看 [生态联盟加入指南](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/blob/main/ecosystem/join.md)
 
