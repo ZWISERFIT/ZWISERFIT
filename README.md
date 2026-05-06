@@ -1,9 +1,9 @@
 > 🔧 **想了解技术架构与部署方式？** → [查看技术支撑版](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
 
-> 🔗 **Web5 原生落地验证**: [ZWISERFIT Web5 第一产品案例](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/AIreports/ZWISERFIT-Web5-%E7%AC%AC%E4%B8%80%E4%BA%A7%E5%93%81%E6%A1%88%E4%BE%8B.md)
+> 🔗 **Web5 原生落地验证**: [ZWISERFIT Web5 第一产品案例](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-%E7%AC%AC%E4%B8%80%E4%BA%A7%E5%93%81%E6%A1%88%E4%BE%8B.md) | [🔍 独立验证页面](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/verify.html) | [📋 Stella审计签名](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%A1%E8%AE%A1%E7%AD%BE%E5%90%8D.json)
 > SHA-256: `39ad50b47f4401ecc94a361bb4d1f47a2840c7e867621c259ecdf88fa6150a55`
-> Stella 审计签名: ✅ VERIFIED | 联盟链 TX: `e6509b55d8b0db444371b6f47df07e6377afb73d9a40848b7bb543fc4de2d385`
-> 独立验证: `sha256sum ZWISERFIT-Web5-第一产品案例.md`
+> Stella 审计签名: ✅ VERIFIED v2.0 | 联盟链 TX: `e6509b55d8b0db444371b6f47df07e6377afb73d9a40848b7bb543fc4de2d385`
+> 独立验证: `sha256sum ZWISERFIT-Web5-第一产品案例.md` | 在线验证: 打开 `assets/verify.html` 粘贴文件内容即可比对
 
 # ZWISERFIT
 > **愿景｜AI Agent驱动 健康行为数据资产化开源协议层**
