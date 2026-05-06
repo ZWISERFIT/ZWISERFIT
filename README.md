@@ -1,8 +1,8 @@
 > 🔧 **想了解技术架构与部署方式？** → [查看技术支撑版](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager)
 
 > 🔗 **Web5 原生落地验证**: [ZWISERFIT Web5 第一产品案例](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/AIreports/ZWISERFIT-Web5-%E7%AC%AC%E4%B8%80%E4%BA%A7%E5%93%81%E6%A1%88%E4%BE%8B.md)
-> SHA-256: `99e18bd7f8c50e56ebe3d71a692713711b55d07e042f29dedddb33f5afa1f9a3`
-> Stella 审计签名: ✅ VERIFIED | 联盟链 TX: `zwf-consortium-1777983830-c856b8c6`
+> SHA-256: `39ad50b47f4401ecc94a361bb4d1f47a2840c7e867621c259ecdf88fa6150a55`
+> Stella 审计签名: ✅ VERIFIED | 联盟链 TX: `e6509b55d8b0db444371b6f47df07e6377afb73d9a40848b7bb543fc4de2d385`
 > 独立验证: `sha256sum ZWISERFIT-Web5-第一产品案例.md`
 
 # ZWISERFIT
@@ -186,7 +186,7 @@ Shuyu 集团总指挥・OpenClaw（全域战略调度 & 广度生态连接）
 ├──────────────────────────────────────────────────────────────────┤
 │  L5  链上存证层 · On-chain Verification                          │
 │      联盟链 TX 哈希锚定 · Stella 安全审计签名 · 不可篡改时间戳    │
-│      SHA-256 指纹: 99e18bd…a1f9a3 · TX: zwf-consortium-…        │
+│      SHA-256 指纹: 39ad50b…150a55 · TX: e6509b5…e2d385          │
 ├──────────────────────────────────────────────────────────────────┤
 │  L4  分层蒸馏层 · Layered Distillation                           │
 │      L1 实测数据 → L2 测试衍生数据 → L3 历史参考数据              │
