@@ -246,6 +246,20 @@ openclaw --version
 - 🚫 **不必完美**：你的第一个 PR 不必完美——Code Review 会帮助你改进
 - 🎯 **从小做起**：一个 typo 修复也是有价值的贡献
 
+### 🎯 First-time Contributor Guarantee — 小赢保证
+
+**首次贡献者的 PR 通过保障计划。** 我们不希望你因为'怕做不好'而犹豫提交。
+
+| 保障项 | 说明 |
+|:------|:-----|
+| **24h 优先审核** | 你的第一个 PR 会在提交后 24h 内得到人工 Review |
+| **CI 通过即合并** | 如果 PR 通过 CI 检查，我们直接合并——不做代码风格扯皮 |
+| **无条件上 CONTRIBUTORS.md** | 合并后自动将你加入 [CONTRIBUTORS.md](./CONTRIBUTORS.md) |
+| **Release 提名** | 你的贡献会出现在下一次 Release Changelog 中 |
+
+> 💬 有任何问题直接在你的 PR 评论区提问，我们会在 24h 内回复你。
+> 第一个 PR 不完美完全没关系——我们优先保证你'提交-通过'的正反馈循环。
+
 ---
 
 ## ⏱ 响应承诺（Response Promise）
