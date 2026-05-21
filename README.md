@@ -9,7 +9,7 @@
 
 | Proof | Evidence |
 |-------|----------|
-| **7 years of real data** | [📊 105+ members · continuous since 2019 →](https://github.com/ZWISERFIT/data) |
+| **7 years of real data** | [📊 118 monthly active paying members · continuous since 2019 →](https://github.com/ZWISERFIT/data) |
 | **AI Agents run 24/7** | [🤖 Latest commit `4611ae1` · 2026-05-21 17:11 CST →](https://github.com/ZWISERFIT/agents) |
 | **Governance is mathematically proven** | [🛡️ Stella audit signature: `VERIFIED v2.0` →](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%A1%E8%AE%A1%E7%AD%BE%E5%90%8D.json) |
 
@@ -21,6 +21,15 @@
 | 📊 7 Years of Live Data | [`→ data`](https://github.com/ZWISERFIT/data) |
 | 🤖 AI Agent Army (24×7) | [`→ agents`](https://github.com/ZWISERFIT/agents) |
 | 🔗 PoPB Protocol Spec | [`→ protocol`](https://github.com/ZWISERFIT/protocol) |
+
+## Quick Start — 30 seconds
+
+1. 🐛 Found a bug? → [Open an Issue](https://github.com/ZWISERFIT/ZWISERFIT/issues/new)
+2. 💡 Have an idea? → [Start a Discussion](https://github.com/ZWISERFIT/ZWISERFIT/discussions)
+3. 🔧 Ready to write code? → [Pick a Good First Issue](https://github.com/ZWISERFIT/ZWISERFIT/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+4. 📖 Want the full picture? → Read [CONTRIBUTING.md](./CONTRIBUTING.md)
+
+**Your first contribution:** [Add English docstrings](https://github.com/ZWISERFIT/ZWISERFIT/issues/1) — no code changes needed, just translate. First PR in under an hour.
 
 ---
 
