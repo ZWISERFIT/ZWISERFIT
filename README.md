@@ -57,10 +57,10 @@ All protocol data is independently verifiable:
 |:-----:|------|:------:|:----:|
 | Physical | Door turnstiles · 15 sensor anti-spoof | ✅ Live | → protocol |
 | Data | DID binding · MPC privacy | ✅ Live | → data |
-| Protocol | PoPB — verify human behavior on-chain | 🔄 WIP v0.1 | → protocol |
+| Protocol | PoPB — verify human behavior on-chain | 🔄 WIP (a16z Arcade Token framework) | → protocol |
 | Governance | 9 AI Agents · cross-validation audit | ✅ Live | → agents |
 | Application | Insurance · health data · fitness dApps | 🔄 Builder-ready | → investor |
-| Value | Behavior → asset · token economics | 🔄 WIP | → investor |
+| Value | Behavior → asset · token warrant | 🔄 WIP (SEC no-action precedent) | → investor |
 
 ---
 
