@@ -23,6 +23,8 @@ PoPB (Proof of Physical Behavior) fills the missing primitive in Multicoin Capit
 | **AI Agents run 24/7** | [🤖 Latest commit `4611ae1` · 2026-05-21 17:11 CST →](https://github.com/ZWISERFIT/agents) |
 | **Governance is mathematically proven** | [🛡️ Stella audit signature: `VERIFIED v2.0` →](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%89%E8%AE%A1%E7%AD%BE%E5%90%8D.json) |
 
+**S2B2C Infrastructure:** AI (S) empowers gyms (B) to serve members (C). Data belongs to C, not S, not B.
+
 ### Explore
 
 | Into | Link |
