@@ -1,26 +1,38 @@
 # ZWISERFIT · Proof of Physical Behavior Protocol
 
 **The verification layer for human physical behavior.**
-1 node · 7 years of data · 9 AI Agents · 100% capture rate
+1 node · 7 years of data · 118 active members · 9 AI Agents · 100% capture rate
 
 ---
 
-## ✅ Verified Proof — Not Claims
+## The Bet
+
+We believe the verification layer for human physical behavior will become as fundamental as TCP/IP. One node — a single gym in Dongguan, China — proved it for 7 years: a facial-recognition turnstile capturing every entry at 100% fidelity, zero spoofing. Now we open the protocol.
+
+PoPB (Proof of Physical Behavior) fills the missing primitive in Multicoin Capital's Internet Labor Markets framework — verifiable human physical activity, distinct from PoPW (devices) and PoS (computation).
+
+**This is not a company. This is a category's technical standard being defined in public.**
+
+---
+
+## Verified Proof — Not Claims
 
 | Proof | Evidence |
 |-------|----------|
 | **7 years of real data** | [📊 118 monthly active paying members · continuous since 2019 →](https://github.com/ZWISERFIT/data) |
 | **AI Agents run 24/7** | [🤖 Latest commit `4611ae1` · 2026-05-21 17:11 CST →](https://github.com/ZWISERFIT/agents) |
-| **Governance is mathematically proven** | [🛡️ Stella audit signature: `VERIFIED v2.0` →](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%A1%E8%AE%A1%E7%AD%BE%E5%90%8D.json) |
+| **Governance is mathematically proven** | [🛡️ Stella audit signature: `VERIFIED v2.0` →](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%89%E8%AE%A1%E7%AD%BE%E5%90%8D.json) |
 
-### 🔗 Explore
+### Explore
 
 | Into | Link |
 |------|------|
 | 📖 Investor Quick Start | [`→ investor`](https://github.com/ZWISERFIT/investor) |
-| 📊 7 Years of Live Data | [`→ data`](https://github.com/ZWISERFIT/data) |
-| 🤖 AI Agent Army (24×7) | [`→ agents`](https://github.com/ZWISERFIT/agents) |
-| 🔗 PoPB Protocol Spec | [`→ protocol`](https://github.com/ZWISERFIT/protocol) |
+| 📊 7 Years of Live Behavioral Data | [`→ data`](https://github.com/ZWISERFIT/data) |
+| 🤖 AI Agent Army — 24×7 Production | [`→ agents`](https://github.com/ZWISERFIT/agents) |
+| 🔗 PoPB Protocol Specification | [`→ protocol`](https://github.com/ZWISERFIT/protocol) |
+
+---
 
 ## Quick Start — 30 seconds
 
@@ -29,40 +41,45 @@
 3. 🔧 Ready to write code? → [Pick a Good First Issue](https://github.com/ZWISERFIT/ZWISERFIT/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 4. 📖 Want the full picture? → Read [CONTRIBUTING.md](./CONTRIBUTING.md)
 
-**Your first contribution:** [Add English docstrings](https://github.com/ZWISERFIT/ZWISERFIT/issues/1) — no code changes needed, just translate. First PR in under an hour.
+**Your first contribution:** [Add English docstrings to agent config files](https://github.com/ZWISERFIT/ZWISERFIT/issues/1) — no code changes needed, just translate comments. First PR in under an hour.
 
 ---
 
-## ❓ The Problem
+## Market Demand
 
-Every day, millions of gym visits generate verified physical activity — real human behavior worth billions to insurers and pharma. Platforms capture this data. Sell it. The person who generated it gets nothing. Zero consent. Zero ownership. No verification layer exists for human physical behavior. Until now.
-
-Versus existing DePIN — Helium verifies *where devices are*, Hivemapper verifies *map data*, GEODNET verifies *location*. None verify what humans actually DO. PoPB fills the missing primitive.
-
-## 💰 Market Demand
-
-Industry research: health insurers pay **¥50–250/person/year** for verified behavioral data. China health insurance market: **¥900B+**. Global health data market: **$500B+**. Effectively utilized: **<5%**.
+Industry research: health insurers pay **¥50–250/person/year** for verified behavioral data. China health insurance market: **¥900B+** (USD $125B+). Global health data market: **$500B+**. Effectively utilized: **<5%**.
 
 ---
 
-## ⛓️ Data Integrity
+## Data Integrity
 
 All protocol data is independently verifiable:
 
-| Hash | Federated Ledger TX |
-|:----|:--------------------|
+| SHA-256 | Federated Ledger TX |
+|:--------|:--------------------|
 | `39ad50b47f4401ecc94a361bb4d1f47a2840c7e867621c259ecdf88fa6150a55` | `e6509b55d8b0db444371b6f47df07e6377afb73d9a40848b7bb543fc4de2d385` |
 
 - 🔍 [Independent Verification Page](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/verify.html) — paste any file to compare its hash
-- 🛡️ [Stella Audit Signature](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%A1%E8%AE%A1%E7%AD%BE%E5%90%8D.json) — ✅ VERIFIED v2.0
+- 🛡️ [Stella Audit Signature](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%89%E8%AE%A1%E7%AD%BE%E5%90%8D.json) (✅ VERIFIED v2.0)
 
 ---
 
-## 🚧 Project Status
+## Protocol Architecture
 
-> **Stage:** MVP — Tackling Data Source Integration
+| Layer | Role | Status | Spec |
+|:-----:|------|:------:|:----:|
+| Physical | Door turnstiles · 15 sensor anti-spoof | ✅ Live | → protocol |
+| Data | DID binding · MPC privacy | ✅ Live | → data |
+| Protocol | PoPB — verify human behavior on-chain | 🔄 WIP v0.1 | → protocol |
+| Governance | 9 AI Agents · cross-validation audit | ✅ Live | → agents |
+| Application | Insurance · health data · fitness dApps | 🔄 Builder-ready | → investor |
+| Value | Behavior → asset · token economics | 🔄 WIP | → investor |
 
-### What Works Today
+---
+
+## Project Status
+
+### Working Today
 
 | Capability | Status |
 |-----------|:------:|
@@ -72,19 +89,24 @@ All protocol data is independently verifiable:
 | Open-source daily data commits | GitHub public |
 | Community Constitution | [CONSTITUTION.md](./CONSTITUTION.md) |
 
+### Current Challenges (Honest, Transparent)
+
+| Challenge | Impact |
+|-----------|--------|
+| Face recognition data pipeline not connected | Real-time attendance unavailable |
+| AI data hallucination mitigated (L1/L2/L3 tier system in place) | All reports must declare data source |
+| Member-device ID mapping: test phase | Production-ready by Q3 |
+| Sales/POS not integrated | Revenue data unavailable from system |
+
 ### We Need You
 
-> 🏷️ **Hiring: Embedded Systems / IoT Engineers**
-> - Connect ZWF-20 face terminal to Linux server
-> - Build middleware for IoT devices
-> - RS-485, MQTT, edge computing
-> - **No blockchain experience required.**
+> 🏷️ **Hiring: Embedded Systems / IoT Engineers** — Connect ZWF-20 face terminal to Linux server. Build middleware for IoT devices. RS-485, MQTT, edge computing. **No blockchain experience required.**
 >
 > 📌 [Open Issues: `help wanted`](https://github.com/ZWISERFIT/zwiserfit-ai-store-manager/issues)
 
 ---
 
-## ⚡ Quick Start
+## Quick Start (CLI)
 
 ```bash
 git clone https://github.com/ZWISERFIT/ZWISERFIT.git
@@ -98,20 +120,7 @@ openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
 
 ---
 
-## 🏗️ Protocol Architecture
-
-| Layer | Role | Status | Spec |
-|:-----:|------|:------:|:----:|
-| Physical | Door turnstiles · 15 sensor anti-spoof | ✅ Live | → protocol |
-| Data | DID binding · MPC privacy | ✅ Live | → data |
-| Protocol | PoPB — verify human behavior on-chain | 🔄 WIP v0.1 | → protocol |
-| Governance | 9 AI Agents · cross-validation audit | ✅ Live | → agents |
-| Application | Insurance · health data · fitness dApps | 🔄 Builder-ready | → investor |
-| Value | Behavior → asset · token economics | 🔄 WIP | → investor |
-
----
-
-## 📊 Roadmap
+## Roadmap
 
 | Phase | Timeline | Milestone |
 |:------|:--------:|-----------|
@@ -122,27 +131,11 @@ openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
 
 ---
 
-<!-- ====== ABOUT THE FOUNDER ====== -->
+## 👤 About the Founder — [FOUNDER_STORY.md](./FOUNDER_STORY.md) 🇨🇳
 
-## 👤 About the Founder
+**莫淑瑜 (Suzanne Mok)** — 10-year offline retail entrepreneur from Dongguan, China. Zero coding background. Self-trained a 9-AI-Agent army. 7 years, one gym, millions in losses, and a protocol that accidentally proved itself in production.
 
-**莫淑瑜 (Suzanne Mok)** — 十年线下实体创业者，东莞万江。
-
-"我不是老板，我是这个店里最累的员工。" 这句话，我说了整整七年。
-
-**顾客**：老板，办年卡靠谱吗？怕你跑路。
-**我**：拒绝年卡捆绑。AI店长Momo全程监管，支持按月消费，消费更安心。
-
-**教练**：我下个月跳槽，会员我一起带走。
-**我**：AI无缝承接全套训练方案，会员体验零断层。
-
-**投资人**：RWA大多脱离实体，线下数据难以链上核验。
-**我**：每一条健康行为数据，门店实时采集、GitHub公开归档，全链路可溯源。
-
-**同行**：不懂代码、无行业背景，凭什么重构运动健康赛道？
-**我**：凭千万级实战亏损——MBI亏损200万、教练背叛100万、系统100万、基建200万、七年运营支出400万。凭无技术团队，从零训练专属AI商业军团。
-
-这不是资本包装的爽文叙事。是普通实体创业者借AI逆风生长的真实路径。
+[Read the full founder story →](./FOUNDER_STORY.md)
 
 ---
 
@@ -161,6 +154,4 @@ openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
 > *Category doesn't exist yet. We're defining it.*
 > ⭐ [Star the repo](https://github.com/ZWISERFIT/ZWISERFIT)
 
----
-
-📄 Apache 2.0 | Project原创架构、AI角色体系、商业模式与ZWF-20数据标准归创始人莫淑瑜独家原创所有。
+📄 Apache 2.0
