@@ -9,6 +9,36 @@
 
 ---
 
+---
+
+## 🤝 How to Contribute: Five Paths
+
+> ZWISERFIT follows a **Five Co-building (五共)** framework. Each contribution type maps to a pillar:
+
+| Pillar | What it means | How to contribute | Issue label |
+|:------:|:---|:---|:---:|
+| 🌱 **Consensus (共识)** | Align on the protocol vision | Join Discussions, read docs, share feedback | `discussion` |
+| 🔧 **Co-create (共创)** | Build on PoPB as a developer | Submit Builder Application, write Q&A | `builder-application` |
+| 🏗️ **Co-build (共建)** | Improve the protocol itself | Code PRs, documentaton, data pipe fixes | `help-wanted` |
+| 🔓 **Co-share (共享)** | Make data accessible | Open datasets, verification tools, audit trails | `data-pipeline` |
+| 🗳️ **Co-govern (共治)** | Shape protocol evolution | Governance discussions, parameter proposals | `governance` |
+
+> ⚡ **Don't know where to start?** [Check our Builder Application](https://github.com/ZWISERFIT/ZWISERFIT/issues/new?labels=builder-application&template=builder-application.yml) — it's the fastest way to tell us what you want to build.
+
+---
+
+## 🏗️ Builder Application / Beta Access
+
+**Want to build an application on PoPB data?** Apply for beta access.
+
+1. Use the [Builder Application template](https://github.com/ZWISERFIT/ZWISERFIT/issues/new?labels=builder-application&template=builder-application.yml) to create an Issue
+2. Describe what you want to build, what data primitives you need, and your timeline
+3. We'll respond within 24h with protocol access details
+
+> **What builders get:** Early API access, data sample, direct channel to the protocol team (Luna + Baron), inclusion in Show & Tell.
+
+---
+
 ## 📋 目录
 
 - [行为准则](#行为准则)
