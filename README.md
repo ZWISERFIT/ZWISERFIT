@@ -89,35 +89,16 @@ openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ Protocol Architecture
 
-```
-┌─────────────────────────────────────────────────┐
-│            APPLICATION LAYER                     │
-│  Insurance · Health Data · Fitness dApp ·       │
-└───────────────────────┬─────────────────────────┘
-                        │  PoPB API calls
-┌───────────────────────▼─────────────────────────┐
-│            VERIFICATION LAYER (PoPB)             │
-│  9 AI Agents · Anti-Sybil · DID · MPC            │
-└───────────────────────┬─────────────────────────┘
-                        │  Physical signals
-┌───────────────────────▼─────────────────────────┐
-│            PHYSICAL LAYER                         │
-│  Turnstiles · Gates · 15 sensors · 100% capture  │
-└──────────────────────────────────────────────────┘
-```
-
-### Web5 Six-Layer Data Architecture
-
-```
-L6 Boundary Isolation     — 双法律实体隔离
-L5 On-chain Verification  — SHA-256 + 联盟链TX
-L4 Layered Distillation   — L1/L2/L3数据分级
-L3 DKG                    — 会员行为知识图谱
-L2 Asset Vault            — ZWF-20标准封装
-L1 Data Token             — 门禁·体测·训练·客流
-```
+| Layer | Role | Status | Spec |
+|:-----:|------|:------:|:----:|
+| Physical | Door turnstiles · 15 sensor anti-spoof | ✅ Live | → protocol |
+| Data | DID binding · MPC privacy | ✅ Live | → data |
+| Protocol | PoPB — verify human behavior on-chain | 🔄 WIP v0.1 | → protocol |
+| Governance | 9 AI Agents · cross-validation audit | ✅ Live | → agents |
+| Application | Insurance · health data · fitness dApps | 🔄 Builder-ready | → investor |
+| Value | Behavior → asset · token economics | 🔄 WIP | → investor |
 
 ---
 
