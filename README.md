@@ -89,6 +89,15 @@ All protocol data is independently verifiable:
 | Open-source daily data commits | GitHub public |
 | Community Constitution | [CONSTITUTION.md](./CONSTITUTION.md) |
 
+## 👤 About the Founder — [FOUNDER_STORY.md](./FOUNDER_STORY.md) 🇨🇳
+
+**莫淑瑜 (Suzanne Mok)** — 10-year offline retail entrepreneur from Dongguan, China. Zero coding background. Self-trained a 9-AI-Agent army. 7 years, one gym, millions in losses, and a protocol that accidentally proved itself in production.
+
+[Read the full founder story →](./FOUNDER_STORY.md)
+
+---
+
+
 ### Current Challenges (Honest, Transparent)
 
 | Challenge | Impact |
@@ -131,13 +140,6 @@ openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
 
 ---
 
-## 👤 About the Founder — [FOUNDER_STORY.md](./FOUNDER_STORY.md) 🇨🇳
-
-**莫淑瑜 (Suzanne Mok)** — 10-year offline retail entrepreneur from Dongguan, China. Zero coding background. Self-trained a 9-AI-Agent army. 7 years, one gym, millions in losses, and a protocol that accidentally proved itself in production.
-
-[Read the full founder story →](./FOUNDER_STORY.md)
-
----
 
 ## 📬 Contact
 
