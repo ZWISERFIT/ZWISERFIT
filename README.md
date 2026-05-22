@@ -64,7 +64,7 @@ All protocol data is independently verifiable:
 
 ---
 
-## Current Challenges & Mitigations
+## Progress & Next Milestones
 
 | Challenge | Status | Mitigation |
 |-----------|:------:|------------|
