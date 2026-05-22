@@ -148,4 +148,4 @@ openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
 > *Category doesn't exist yet. We're defining it.*
 > ⭐ [Star the repo](https://github.com/ZWISERFIT/ZWISERFIT)
 
-📄 Apache 2.0
+📄 MIT
