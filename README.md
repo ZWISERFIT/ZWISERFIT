@@ -49,6 +49,7 @@ All protocol data is independently verifiable:
 
 - 🔍 [Independent Verification Page](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/verify.html) — paste any file to compare its hash
 - 🛡️ [Stella Audit Signature](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%89%E8%AE%A1%E7%AD%BE%E5%90%8D.json) (✅ VERIFIED v2.0)
+  > 🛡️ **Open-source code + verifiable audit = higher security standard than closed-source.**
 
 ---
 
