@@ -2,6 +2,7 @@
 
 **The verification layer for human physical behavior.**
 1 node · 7 years of data · 118 active members · 9 AI Agents · 100% capture rate
+▶️ Watch Demo (90s) → [YouTube Unlisted Link]
 
 ---
 
