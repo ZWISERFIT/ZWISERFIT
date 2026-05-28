@@ -28,14 +28,14 @@ PoPB is not another DePIN project. It is the missing protocol primitive that mak
 
 | Proof | Evidence |
 |-------|----------|
-| **7 years of real data** | [📊 118 monthly active paying members · continuous since 2019 →](https://github.com/ZWISERFIT/data) |
+| **7 years of real data** | [📊 118 monthly active paying members · continuous since 2019 →](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/data/weekly-snapshot-20260529.md) |
 | **AI Agents run 24/7** | [🤖 Latest commit `4611ae1` · 2026-05-21 17:11 CST →](https://github.com/ZWISERFIT/agents) |
 | **Governance is mathematically proven** | [🛡️ Stella audit signature: `VERIFIED v2.0` →](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/assets/ZWISERFIT-Web5-Stella%E5%AE%89%E8%AE%A1%E7%AD%BE%E5%90%8D.json) |
 
 | Into | Link |
 |------|------|
 | 📖 Investor Quick Start | [`→ investor`](https://github.com/ZWISERFIT/investor) |
-| 📊 7 Years of Live Data | [`→ data`](https://github.com/ZWISERFIT/data) |
+| 📊 7 Years of Live Data | [`→ data`](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/data/weekly-snapshot-20260529.md) |
 | 🤖 AI Agent Army (24×7) | [`→ agents`](https://github.com/ZWISERFIT/agents) |
 | 🔗 PoPB Protocol Spec | [`→ protocol`](https://github.com/ZWISERFIT/protocol) |
 
@@ -133,6 +133,13 @@ openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
 
 ---
 
+
+
+## 📊 Live Data Snapshot
+
+> **Weekly update of node operation metrics — real data from a real store.**
+> [Read the latest snapshot →](data/weekly-snapshot-20260529.md)
+
 ## 📬 Contact
 
 | Entry | Link |
@@ -149,3 +156,4 @@ openclaw agent start momo --capabilities store-ops,member-mgmt,daily-report
 > ⭐ [Star the repo](https://github.com/ZWISERFIT/ZWISERFIT)
 
 📄 MIT
+
