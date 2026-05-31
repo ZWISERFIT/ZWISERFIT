@@ -24,6 +24,20 @@ PoPB is not another DePIN project. It is the missing protocol primitive that mak
 
 ---
 
+## 🔥 Why Now: The Convergence (D-Day, May 2026)
+
+Three independent research threads from two top-tier crypto VCs all point to the same empty space. None reference each other. All describe ZWISERFIT from different angles:
+
+| VC | Thesis | ZWISERFIT Fit |
+|-----|--------|---------------|
+| **Multicoin** ILM (Jan 2026) | "Internet Labor Markets" — Physical+Deterministic quadrant should exist | The missing row. 7 years of proof. |
+| **a16z** Arcade Tokens (May 2026) | "Verifiable physical actions → digital assets outside SEC securities laws" | PoPB = Arcade Token for fitness data |
+| **a16z** PMF Patterns (May 2026) | "AI agents becoming economic actors at machine speed" — Pattern #2 exponential curve | 9 AI Agents running a physical node 24/7 since March 2026 |
+
+**The empty space has an address:** Dongguan Wanjiang, Guangdong, China. 7 years of data. Not a white paper. A gym.
+
+---
+
 ## What's Verified (Longboard)
 
 | Proof | Evidence |
