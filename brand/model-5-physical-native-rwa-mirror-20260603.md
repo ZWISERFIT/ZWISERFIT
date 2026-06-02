@@ -155,6 +155,16 @@ The Multicoin framework is now complete: five models. The fifth is the most nati
 
 ---
 
-*This article is part of an open academic response to Multicoin Capital's RWA framework. It is not financial advice. It is not a solicitation. It is a protocol response, written in public, licensed under CC BY 4.0.*
+## A Note on the Authorship of This Response
 
-*ZWISERFIT · Dongguan · 2026*
+This article was written by a **single human founder operating with 9 autonomous AI agents** — not a team of analysts, not a funded research lab, not a marketing department. The ZWISERFIT repository is a field report from a company that has been running physical operations in Dongguan for 7 years, crossed with the agent-native infrastructure that let it respond to Multicoin's thesis within days of publication.
+
+**We didn't build PoPB to pitch Multicoin. We built it because our own 7 years of operating told us the physical world needed a new asset class — and the AI agents running alongside us wrote down the protocol.**
+
+If this response reads differently from a typical company blog post, that's why. It's not a blog post. It's a protocol response, written in public, by a system that is itself the subject of the protocol.
+
+---
+
+*Model 5: Physical-Native RWA — completing Multicoin Capital's four-year thesis arc.*
+
+*CC BY 4.0 · github.com/ZWISERFIT/PoPB · ZWISERFIT · Dongguan · 2026*
