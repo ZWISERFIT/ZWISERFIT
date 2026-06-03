@@ -1,0 +1,41 @@
+name: 🌱 Good First Issue — New Contributor Welcome
+description: A starter issue for first-time ZWISERFIT contributors. Perfect for building familiarity.
+title: "[GFI]: "
+labels: ["good first issue", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👋 Welcome to ZWISERFIT!
+
+        You're looking at a **Good First Issue (GFI)** — a curated starter task designed for first-time contributors.
+
+        > **Why this matters:** ZWISERFIT is building the verification layer for physical behavior data — think TCP/IP for the real world. Every contribution, no matter how small, makes this infrastructure more robust.
+
+        **Before you start:**
+        1. 📖 Read our [CONTRIBUTING.md](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/CONTRIBUTING.md) (it's short)
+        2. 💬 Comment below to claim this issue
+        3. 🚀 Fork, code, PR — we'll review within 48h
+
+  - type: textarea
+    id: task
+    attributes:
+      label: What needs to be done
+      description: If you're reading this in an open issue, the specific task is described above.
+      value: |
+        *(The task description is in the issue title and initial comment above.)*
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+
+        ### 🧭 Not sure where to start?
+
+        - **Check our community docs:** `community/` directory in this repo
+        - **Ask questions:** Comment on this issue — we're responsive
+        - **See examples:** Look at existing PRs with the `[EXAMPLE]` tag for reference
+
+        *You've got this. The ZWISERFIT collective has your back. 🌙*

@@ -1,0 +1,57 @@
+name: 🐛 Bug Report
+description: Report a bug in ZWISERFIT documentation, protocol, or infrastructure
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thanks for taking the time to help ZWISERFIT get better!
+
+        > *"AI solves efficiency & trust. Humans solve retention & warmth."*
+        >
+        > First-time contributor? Welcome! Check our [CONTRIBUTING.md](https://github.com/ZWISERFIT/ZWISERFIT/blob/main/CONTRIBUTING.md) for guidance.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: What happened? Be specific — screenshots or logs help a lot.
+      placeholder: When I tried to..., I expected..., but instead...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: How can someone else see this bug?
+      placeholder: |
+        1. Go to ...
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of ZWISERFIT does this affect?
+      options:
+        - Documentation
+        - Protocol / API
+        - Agent Framework
+        - Community Content
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Want to fix it?
+      description: We welcome contributors at every level! 
+      options:
+        - label: I'd like to submit a PR for this bug
+        - label: I need guidance on how to start

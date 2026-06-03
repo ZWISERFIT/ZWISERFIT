@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 ZWISERFIT Community Discussion
+    url: https://github.com/ZWISERFIT/ZWISERFIT/discussions
+    about: Please ask and answer questions in GitHub Discussions first.
+  - name: 🌐 ZWISERFIT Developer Docs
+    url: https://github.com/ZWISERFIT/ZWISERFIT
+    about: Check our README and community docs before opening an issue.
