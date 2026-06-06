@@ -8,48 +8,50 @@
 
 ## 🚀 Latest Updates — May / June 2026
 
-> **What happened in the last 30 days — from 1 human × 9 AI agents to a live protocol.**
+> **攻坚战Day1已完成 · From 1 human × 9 AI agents to a live protocol in 30 days.**
 
 ### May: Angel Round Sprint (May 6–31)
 
 | Milestone | Status | Details |
 |-----------|:------:|:--------|
-| 9 AI Agents deployed in production 24/7 | ✅ Live | Store operations, brand, content, compliance — full agent pipeline |
-| PoPB Protocol v1.0 specified | ✅ Done | Proof of Physical Behavior — verification layer for human activity |
+| 9 AI Agents deployed in production 24/7 | ✅ Live | Store ops, brand, content, compliance — full pipeline |
+| PoPB Protocol v1.0 specified | ✅ Done | Verification layer for human physical behavior |
 | Stella Cross-Validation Audit v2.0 | ✅ Verified | Open-source + chain-anchored audit signatures |
 | 8 cold emails to Tier-1 crypto VCs | ✅ Sent | Multicoin, a16z, Variant, Framework, 1confirmation, JDI, Borderless, Delphi |
 | 5 accelerator applications | ✅ Submitted | — |
-| Angel Round retrospective published | ✅ Discussion #13 | [24 Days — 1 Human × 9 Agents](https://github.com/ZWISERFIT/ZWISERFIT/discussions/13) |
-| GitHub community onboarding live | 🟢 Active | Issue templates, good-first-issue labels, discussion guides |
+| Angel Round retrospective | ✅ Discussion #13 | [24 Days — 1 Human × 9 Agents](https://github.com/ZWISERFIT/ZWISERFIT/discussions/13) |
+| Community onboarding live | 🟢 Active | Issue templates, good-first-issue labels, discussion guides |
 
-### June (Week 1): Protocol Live + Narrative Anchored
+### June 攻坚 Day 1–2 (Jun 4–6): Protocol Live + Docs + Funnel
 
 | Milestone | Date | Status |
 |-----------|:----:|:------:|
-| PoPB Protocol v1.0 goes live — HTTP 200 | Jun 4 | ✅ **LIVE** |
+| PoPB Protocol v1.0 live — HTTP/2 200 | Jun 4 | ✅ **LIVE** |
+| Investor docs hub launched — `investor/` directory | Jun 6 | ✅ BP v2.0, UE data, founder story, PPT injection [→ explore](https://github.com/ZWISERFIT/ZWISERFIT/tree/main/investor) |
+| 9 Agent SOUL.md published — cross-validation event logs | Jun 6 | ✅ Agent identities, audit trails, collaboration records public |
 | PoPB Launch Thread on X/Twitter (7 tweets) | Jun 4 | ✅ Published |
 | a16z Arcade Token Thread — independent convergence (6 tweets) | Jun 6 | ✅ Published |
-| Issue template system for external contributors | Jun 5 | ✅ Discussion #24 |
-| Capital funnel: cold email → X/Twitter → accelerator → GitHub | Jun 5–6 | 🟢 Active |
+| Capital funnel live: cold email → X → accelerator → GitHub | Jun 5–6 | 🟢 8/8 sent, awaiting inbound |
 
 ### Live Operational Data (as of Jun 6)
 
 | Metric | Value | Source |
 |:-------|:-----:|:-------|
-| Active monthly members | 118 | Verified facial-recognition gate |
-| Daily check-ins | 35–55 | 7-year continuous record |
+| Active monthly members | 118 | Facial-recognition gate (100% capture) |
+| Daily check-ins | 35–55 avg | 7-year continuous record |
 | Total verified sessions (7 yr) | ~380,000 | SHA-256 anchored |
 | On-chain proof hashes | ~23,000 | Consortium chain |
 | Data pipeline latency | <2s | IoT → Agent → On-chain |
-| AI Agent uptime | 24/7 | Production since March 2026 |
-| GitHub repositories | 2 active | Open-source since May 2026 |
-| X/Twitter threads published | 2 (7+6 tweets) | PoPB launch + a16z convergence |
+| AI Agent uptime | 24/7 | Production since Mar 2026 |
+| GitHub public repos | 2 | ZWISERFIT + ai-store-manager |
+| Investor docs | ✅ Hub live | BP, UE, founder story, due diligence [→ investor/](https://github.com/ZWISERFIT/ZWISERFIT/tree/main/investor) |
 
 ### 🔮 Next 30 Days
 
-- ✅ **Done:** Protocol live, narrative anchored, capital funnel active
+- ✅ **Done:** Protocol live, docs hub live, capital funnel active
 - ⏳ **In progress:** First response from VC outreach (DDL: Jun 12)
 - 🎯 **Next milestone:** ZWF-20 data standard + 1K open-sourced behavioral samples
+- 📊 **Continuous:** Investor relationship management, community growth, protocol iteration
 
 ---
 
