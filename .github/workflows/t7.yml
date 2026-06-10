@@ -1,0 +1,30 @@
+name: T7
+on:
+  push:
+    paths:
+      - '_tweet.txt'
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pip install tweepy
+      - run: python3 /dev/stdin
+        env:
+          K: ${{ secrets.X_API_KEY }}
+          S: ${{ secrets.X_API_SECRET }}
+          T: ${{ secrets.X_ACCESS_TOKEN }}
+          TS: ${{ secrets.X_ACCESS_SECRET }}
+          TX: ZWISERFIT Baron test T7. github.com/ZWISERFIT/ZWISERFIT
+        shell: bash
+      - run: |
+          (
+          cat << 'PYIN'
+import os,tweepy;c=tweepy.Client(os.environ["K"],os.environ["S"],os.environ["T"],os.environ["TS"]);r=c.create_tweet(text=os.environ["TX"]);print("OK "+str(r.data["id"]))
+PYIN
+          ) | python3
+        env:
+          K: ${{ secrets.X_API_KEY }}
+          S: ${{ secrets.X_API_SECRET }}
+          T: ${{ secrets.X_ACCESS_TOKEN }}
+          TS: ${{ secrets.X_ACCESS_SECRET }}
+          TX: ZWISERFIT Baron test T7. github.com/ZWISERFIT/ZWISERFIT
