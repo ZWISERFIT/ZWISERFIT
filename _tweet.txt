@@ -1,1 +1,1 @@
-ZWISERFIT Baron autonomous test v2 - direct to X API with fresh credentials. github.com/ZWISERFIT/ZWISERFIT
+ZWISERFIT Baron named params fix. github.com/ZWISERFIT/ZWISERFIT
