@@ -7,18 +7,39 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
-      - run: pip install requests requests_oauthlib
+      - run: pip install tweepy requests requests_oauthlib
       - run: |
-          echo 'import os,requests,json' > /tmp/d.py
+          echo 'import os,json' > /tmp/d.py
+          echo 'import tweepy' >> /tmp/d.py
+          echo 'import requests' >> /tmp/d.py
           echo 'from requests_oauthlib import OAuth1' >> /tmp/d.py
-          echo 'auth=OAuth1(os.environ["K"],os.environ["S"],os.environ["T"],os.environ["TS"])' >> /tmp/d.py
-          echo 'r=requests.get("https://api.twitter.com/1.1/account/verify_credentials.json",auth=auth)' >> /tmp/d.py
-          echo 'print(f"Status: {r.status_code}")' >> /tmp/d.py
-          echo 'print(r.text[:500])' >> /tmp/d.py
+          echo '# Test 1: tweepy v2 named' >> /tmp/d.py
+          echo 'try:' >> /tmp/d.py
+          echo '  c=tweepy.Client(consumer_key=os.environ["K"],consumer_secret=os.environ["S"],access_token=os.environ["T"],access_token_secret=os.environ["TS"])' >> /tmp/d.py
+          echo '  me=c.get_me()' >> /tmp/d.py
+          echo '  print(f"T1 OK: {me.data.username}")' >> /tmp/d.py
+          echo 'except Exception as e:' >> /tmp/d.py
+          echo '  print(f"T1 FAIL: {e}")' >> /tmp/d.py
+          echo '# Test 2: tweepy v1.1' >> /tmp/d.py
+          echo 'try:' >> /tmp/d.py
+          echo '  auth=tweepy.OAuth1UserHandler(os.environ["K"],os.environ["S"],os.environ["T"],os.environ["TS"])' >> /tmp/d.py
+          echo '  api=tweepy.API(auth)' >> /tmp/d.py
+          echo '  me=api.verify_credentials()' >> /tmp/d.py
+          echo '  print(f"T2 OK: {me.screen_name}")' >> /tmp/d.py
+          echo 'except Exception as e:' >> /tmp/d.py
+          echo '  print(f"T2 FAIL: {e}")' >> /tmp/d.py
+          echo '# Test 3: requests v1.1' >> /tmp/d.py
+          echo 'try:' >> /tmp/d.py
+          echo '  auth=OAuth1(os.environ["K"],os.environ["S"],os.environ["T"],os.environ["TS"])' >> /tmp/d.py
+          echo '  r=requests.get("https://api.twitter.com/1.1/account/verify_credentials.json",auth=auth)' >> /tmp/d.py
+          echo '  print(f"T3: {r.status_code}")' >> /tmp/d.py
+          echo '  if r.status_code==200: print(f"  User: {r.json()["screen_name"]}")' >> /tmp/d.py
+          echo '  else: print(f"  Body: {r.text[:200]}")' >> /tmp/d.py
+          echo 'except Exception as e:' >> /tmp/d.py
+          echo '  print(f"T3 FAIL: {e}")' >> /tmp/d.py
           python3 /tmp/d.py
         env:
           K: ${{ secrets.X_API_KEY }}
           S: ${{ secrets.X_API_SECRET }}
           T: ${{ secrets.X_ACCESS_TOKEN }}
           TS: ${{ secrets.X_ACCESS_SECRET }}
-
