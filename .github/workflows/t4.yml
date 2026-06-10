@@ -1,0 +1,11 @@
+name: T4
+on:
+  push:
+    paths:
+      - '_tweet.txt'
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pip install tweepy
+      - run: python3 -c "print('tweepy ok')"
