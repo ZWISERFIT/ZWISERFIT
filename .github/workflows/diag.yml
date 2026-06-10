@@ -9,7 +9,7 @@ jobs:
     steps:
       - run: pip install requests requests_oauthlib
       - run: |
-          echo 'import requests,json' > /tmp/d.py
+          echo 'import os,requests,json' > /tmp/d.py
           echo 'from requests_oauthlib import OAuth1' >> /tmp/d.py
           echo 'auth=OAuth1(os.environ["K"],os.environ["S"],os.environ["T"],os.environ["TS"])' >> /tmp/d.py
           echo 'r=requests.get("https://api.twitter.com/1.1/account/verify_credentials.json",auth=auth)' >> /tmp/d.py
@@ -21,3 +21,4 @@ jobs:
           S: ${{ secrets.X_API_SECRET }}
           T: ${{ secrets.X_ACCESS_TOKEN }}
           TS: ${{ secrets.X_ACCESS_SECRET }}
+
