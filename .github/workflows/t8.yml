@@ -1,0 +1,22 @@
+name: T8
+on:
+  push:
+    paths:
+      - '_tweet.txt'
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pip install tweepy
+      - run: |
+          echo 'import os,tweepy' > /tmp/t.py
+          echo 'c=tweepy.Client(os.environ["K"],os.environ["S"],os.environ["T"],os.environ["TS"])' >> /tmp/t.py
+          echo 'r=c.create_tweet(text=os.environ["TX"])' >> /tmp/t.py
+          echo 'print("OK "+str(r.data["id"]))' >> /tmp/t.py
+          python3 /tmp/t.py
+        env:
+          K: ${{ secrets.X_API_KEY }}
+          S: ${{ secrets.X_API_SECRET }}
+          T: ${{ secrets.X_ACCESS_TOKEN }}
+          TS: ${{ secrets.X_ACCESS_SECRET }}
+          TX: ZWISERFIT Baron test T8. github.com/ZWISERFIT/ZWISERFIT
