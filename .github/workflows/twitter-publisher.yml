@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
     inputs:
       tweet_text:
-        description: "Single tweet text (≤280 chars)"
+        description: "Single tweet text"
         required: false
         type: string
       thread_json:
-        description: 'JSON array of tweets for a thread, e.g. ["tweet1","tweet2"]'
+        description: 'JSON array of tweets, e.g. ["t1","t2"]'
         required: false
         type: string
 
@@ -15,26 +15,24 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Determine payload
-        id: payload
-        run: |
-          if [ -n "${{ github.event.inputs.thread_json }}" ]; then
-            echo "mode=thread" >> $GITHUB_OUTPUT
-            echo "data=${{ github.event.inputs.thread_json }}" >> $GITHUB_OUTPUT
-          else
-            echo "mode=single" >> $GITHUB_OUTPUT
-            echo "data=${{ github.event.inputs.tweet_text }}" >> $GITHUB_OUTPUT
-          fi
-
       - name: Publish to Twitter via CF Worker
         env:
-          WORKER_URL: ${{ secrets.TWITTER_WORKER_URL }}
-          AUTH_SECRET: ${{ secrets.TWITTER_AUTH_SECRET }}
+          WORKER_URL: \${{ secrets.TWITTER_WORKER_URL }}
+          AUTH_SECRET: \${{ secrets.TWITTER_AUTH_SECRET }}
+          TWEET_TEXT: \${{ github.event.inputs.tweet_text }}
+          THREAD_JSON: \${{ github.event.inputs.thread_json }}
         run: |
-          MODE="${{ steps.payload.outputs.mode }}"
-          DATA='${{ steps.payload.outputs.data }}'
-          if [ "$MODE" = "single" ]; then
-            curl -s -X POST "${WORKER_URL}/tweet"               -H "Authorization: Bearer ${AUTH_SECRET}"               -H "Content-Type: application/json"               -d "{"text":"${DATA}"}"
+          if [ -n "$THREAD_JSON" ]; then
+            echo "Publishing thread..."
+            curl -s -X POST "\${WORKER_URL}/thread" \
+              -H "Authorization: Bearer \${AUTH_SECRET}" \
+              -H "Content-Type: application/json" \
+              -d "\$(echo "\$THREAD_JSON" | jq -c '{tweets: .}')"
           else
-            curl -s -X POST "${WORKER_URL}/thread"               -H "Authorization: Bearer ${AUTH_SECRET}"               -H "Content-Type: application/json"               -d "{"tweets":${DATA}}"
+            echo "Publishing single tweet..."
+            PAYLOAD=\$(jq -n --arg text "\$TWEET_TEXT" '{text: \$text}')
+            curl -s -X POST "\${WORKER_URL}/tweet" \
+              -H "Authorization: Bearer \${AUTH_SECRET}" \
+              -H "Content-Type: application/json" \
+              -d "\$PAYLOAD"
           fi
