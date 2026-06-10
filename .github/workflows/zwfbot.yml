@@ -1,21 +1,28 @@
 name: ZWF Bot
 on:
-  workflow_dispatch:
+  repository_dispatch:
+    types: [tweet,thread]
 jobs:
   go:
     runs-on: ubuntu-latest
     steps:
       - run: pip install tweepy
-      - name: Post
-        run: |
+      - run: |
           python3 -c "
-import os,tweepy
+import os,json,tweepy
 c=tweepy.Client(os.environ['K'],os.environ['S'],os.environ['T'],os.environ['TS'])
-r=c.create_tweet(text='ZWISERFIT Baron is now 24x7 autonomous. First autonomous tweet via GitHub Actions + Tweepy. github.com/ZWISERFIT/ZWISERFIT')
-print(f'✅ https://x.com/i/status/{r.data[\"id\"]}')
+p=os.environ.get('PAYLOAD','{}')
+data=json.loads(p)
+txt=data.get('text','')
+if txt:
+    r=c.create_tweet(text=txt)
+    print(f'✅ https://x.com/i/status/{r.data[\"id\"]}')
+else:
+    print('No text provided')
 "
         env:
           K: ${{ secrets.X_API_KEY }}
           S: *** secrets.X_API_SECRET }}
           T: ${{ secrets.X_ACCESS_TOKEN }}
           TS: ${{ secrets.X_ACCESS_SECRET }}
+          PAYLOAD: ${{ toJSON(github.event.client_payload) }}
