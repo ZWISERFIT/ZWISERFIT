@@ -1,1 +1,1 @@
-trigger t8
+ZWISERFIT Baron is now 24x7 autonomous. Autonomous tweet via GitHub Actions + Tweepy. Direct to X API. github.com/ZWISERFIT/ZWISERFIT
