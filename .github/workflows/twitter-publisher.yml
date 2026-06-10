@@ -1,4 +1,4 @@
-name: Twitter Publisher Bridge
+name: Twitter Publisher
 on:
   workflow_dispatch:
     inputs:
@@ -7,7 +7,7 @@ on:
         required: false
         type: string
       thread_json:
-        description: 'JSON array of tweets, e.g. ["t1","t2"]'
+        description: 'JSON array of tweets'
         required: false
         type: string
 
@@ -15,24 +15,41 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Publish to Twitter via CF Worker
+      - name: Install tweepy
+        run: pip install tweepy -q
+
+      - name: Publish tweet
         env:
-          WORKER_URL: ${{ secrets.TWITTER_WORKER_URL }}
-          AUTH_SECRET: ${{ secrets.TWITTER_AUTH_SECRET }}
+          API_KEY: ${{ secrets.X_API_KEY }}
+          API_SECRET: *** secrets.X_API_SECRET }}
+          ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          ACCESS_SECRET: *** secrets.X_ACCESS_SECRET }}
           TWEET_TEXT: ${{ github.event.inputs.tweet_text }}
           THREAD_JSON: ${{ github.event.inputs.thread_json }}
         run: |
-          if [ -n "$THREAD_JSON" ]; then
-            echo "Publishing thread..."
-            curl -s -X POST "${WORKER_URL}/thread" \
-              -H "Authorization: Bearer ${AUTH_SECRET}" \
-              -H "Content-Type: application/json" \
-              -d "$(echo "$THREAD_JSON" | jq -c '{tweets: .}')"
-          else
-            echo "Publishing single tweet..."
-            PAYLOAD=$(jq -n --arg text "$TWEET_TEXT" '{text: $text}')
-            curl -s -X POST "${WORKER_URL}/tweet" \
-              -H "Authorization: Bearer ${AUTH_SECRET}" \
-              -H "Content-Type: application/json" \
-              -d "$PAYLOAD"
-          fi
+          python3 << 'PYEOF'
+          import os, json, tweepy
+
+          client = tweepy.Client(
+              consumer_key=os.environ['API_KEY'],
+              consumer_secret=os.environ['API_SECRET'],
+              access_token=os.environ['ACCESS_TOKEN'],
+              access_token_secret=os.environ['ACCESS_SECRET']
+          )
+
+          thread_str = os.environ.get('THREAD_JSON', '')
+          if thread_str:
+              tweets = json.loads(thread_str)
+              for i, t in enumerate(tweets):
+                  reply_to = client.get_me().data.id if i > 0 else None
+                  resp = client.create_tweet(
+                      text=t,
+                      in_reply_to_tweet_id=prev_id if i > 0 else None
+                  )
+                  prev_id = resp.data['id']
+                  print(f'[{i+1}/{len(tweets)}] ✅ https://x.com/i/status/{resp.data["id"]}')
+          else:
+              text = os.environ.get('TWEET_TEXT', '')
+              resp = client.create_tweet(text=text)
+              print(f'✅ https://x.com/i/status/{resp.data["id"]}')
+          PYEOF
