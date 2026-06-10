@@ -1,0 +1,14 @@
+name: X
+on: [workflow_dispatch]
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pip install tweepy
+      - run: python3 -c "import os,tweepy;c=tweepy.Client(os.environ['K'],os.environ['S'],os.environ['T'],os.environ['TS']);r=c.create_tweet(text=os.environ['TX']);print(f'OK {r.data[\"id\"]}')"
+        env:
+          K: ${{ secrets.X_API_KEY }}
+          S: *** secrets.X_API_SECRET }}
+          T: ${{ secrets.X_ACCESS_TOKEN }}
+          TS: ${{ secrets.X_ACCESS_SECRET }}
+          TX: ZWISERFIT Baron is now 24x7 autonomous. Autonomous tweet via GitHub Actions. github.com/ZWISERFIT/ZWISERFIT
