@@ -1,7 +1,5 @@
 name: ZWF Bot
-on:
-  repository_dispatch:
-    types: [tweet,thread]
+on: [repository_dispatch]
 jobs:
   go:
     runs-on: ubuntu-latest
@@ -11,7 +9,7 @@ jobs:
           python3 -c "
 import os,json,tweepy
 c=tweepy.Client(os.environ['K'],os.environ['S'],os.environ['T'],os.environ['TS'])
-p=os.environ.get('PAYLOAD','{}')
+p=os.environ.get('PL','{}')
 data=json.loads(p)
 txt=data.get('text','')
 if txt:
@@ -25,4 +23,4 @@ else:
           S: *** secrets.X_API_SECRET }}
           T: ${{ secrets.X_ACCESS_TOKEN }}
           TS: ${{ secrets.X_ACCESS_SECRET }}
-          PAYLOAD: ${{ toJSON(github.event.client_payload) }}
+          PL: ${{ toJSON(github.event.client_payload) }}
