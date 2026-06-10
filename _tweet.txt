@@ -1,1 +1,0 @@
-ZWISERFIT Baron is now 24x7 autonomous. First autonomous tweet via GitHub Actions + Tweepy. Direct to X API, no intermediaries. github.com/ZWISERFIT/ZWISERFIT
