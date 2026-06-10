@@ -17,22 +17,22 @@ jobs:
     steps:
       - name: Publish to Twitter via CF Worker
         env:
-          WORKER_URL: \${{ secrets.TWITTER_WORKER_URL }}
-          AUTH_SECRET: \${{ secrets.TWITTER_AUTH_SECRET }}
-          TWEET_TEXT: \${{ github.event.inputs.tweet_text }}
-          THREAD_JSON: \${{ github.event.inputs.thread_json }}
+          WORKER_URL: ${{ secrets.TWITTER_WORKER_URL }}
+          AUTH_SECRET: ${{ secrets.TWITTER_AUTH_SECRET }}
+          TWEET_TEXT: ${{ github.event.inputs.tweet_text }}
+          THREAD_JSON: ${{ github.event.inputs.thread_json }}
         run: |
           if [ -n "$THREAD_JSON" ]; then
             echo "Publishing thread..."
-            curl -s -X POST "\${WORKER_URL}/thread" \
-              -H "Authorization: Bearer \${AUTH_SECRET}" \
+            curl -s -X POST "${WORKER_URL}/thread" \
+              -H "Authorization: Bearer ${AUTH_SECRET}" \
               -H "Content-Type: application/json" \
-              -d "\$(echo "\$THREAD_JSON" | jq -c '{tweets: .}')"
+              -d "$(echo "$THREAD_JSON" | jq -c '{tweets: .}')"
           else
             echo "Publishing single tweet..."
-            PAYLOAD=\$(jq -n --arg text "\$TWEET_TEXT" '{text: \$text}')
-            curl -s -X POST "\${WORKER_URL}/tweet" \
-              -H "Authorization: Bearer \${AUTH_SECRET}" \
+            PAYLOAD=$(jq -n --arg text "$TWEET_TEXT" '{text: $text}')
+            curl -s -X POST "${WORKER_URL}/tweet" \
+              -H "Authorization: Bearer ${AUTH_SECRET}" \
               -H "Content-Type: application/json" \
-              -d "\$PAYLOAD"
+              -d "$PAYLOAD"
           fi
