@@ -1,0 +1,25 @@
+name: ZWF Bot
+on:
+  workflow_dispatch:
+    inputs:
+      text:
+        description: Tweet text
+        required: true
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    steps:
+      - run: pip install tweepy
+      - run: |
+          python3 -c "
+import os,tweepy
+c=tweepy.Client(os.environ['K'],os.environ['S'],os.environ['T'],os.environ['TS'])
+r=c.create_tweet(text=os.environ['TX'])
+print(f'✅ https://x.com/i/status/{r.data[\"id\"]}')
+"
+        env:
+          K: ${{ secrets.X_API_KEY }}
+          S: *** secrets.X_API_SECRET }}
+          T: ${{ secrets.X_ACCESS_TOKEN }}
+          TS: ${{ secrets.X_ACCESS_SECRET }}
+          TX: ${{ github.event.inputs.text }}
