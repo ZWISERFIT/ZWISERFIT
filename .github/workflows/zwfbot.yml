@@ -1,26 +1,31 @@
 name: ZWF Bot
-on: [repository_dispatch]
+on: [workflow_dispatch]
 jobs:
   go:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - run: pip install tweepy
       - run: |
           python3 -c "
-import os,json,tweepy
+import os,tweepy
 c=tweepy.Client(os.environ['K'],os.environ['S'],os.environ['T'],os.environ['TS'])
-p=os.environ.get('PL','{}')
-data=json.loads(p)
-txt=data.get('text','')
-if txt:
+try:
+    txt=open('_tweet.txt').read().strip()
+    if not txt: raise Exception('empty')
     r=c.create_tweet(text=txt)
     print(f'✅ https://x.com/i/status/{r.data[\"id\"]}')
-else:
-    print('No text provided')
+    open('_tweet.txt','w').close()
+except Exception as e:
+    print(f'Skipped: {e}')
 "
         env:
           K: ${{ secrets.X_API_KEY }}
           S: *** secrets.X_API_SECRET }}
           T: ${{ secrets.X_ACCESS_TOKEN }}
           TS: ${{ secrets.X_ACCESS_SECRET }}
-          PL: ${{ toJSON(github.event.client_payload) }}
+      - run: |
+          git config user.name "Baron"
+          git config user.email "baron@zwiserfit.com"
+          git add _tweet.txt
+          git diff --cached --quiet || (git commit -m "clear tweet" && git push)
