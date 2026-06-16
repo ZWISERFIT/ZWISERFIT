@@ -1,6 +1,6 @@
-# ZWISERFIT · AI + Web5 大健康基础数据设施
+# ZWISERFIT · 大健康行为数据基础设施 · AI×Web5
 
-**AI + Web5 大健康基础数据设施 — 用户拥有自己的健康数据，协议确保数据属于用户、不属于平台。**
+**大健康行为数据基础设施 · AI×Web5 — 用户拥有自己的健康数据，协议确保数据属于用户、不属于平台。**
 1 node · 7 years of data · 118 active members · 9 AI Agents · 100% capture rate
 ▶️ Watch Demo (90s) → [YouTube Unlisted Link]
 
@@ -68,13 +68,13 @@ What's missing is a **data infrastructure layer** that gives users ownership ove
 
 That gap is what ZWISERFIT fills.
 
-## The Solution: AI + Web5 大健康基础数据设施
+## The Solution: 大健康行为数据基础设施 · AI×Web5
 
-ZWISERFIT = **AI + Web5 大健康基础数据设施** — the infrastructure layer that connects real physical behavior to fair outcomes through decentralized identity, proof-of-behavior verification, and privacy-preserving computation.
+ZWISERFIT = **大健康行为数据基础设施 · AI×Web5** — the infrastructure layer that connects real physical behavior to fair outcomes through decentralized identity, proof-of-behavior verification, and privacy-preserving computation.
 
 - **AI** → 9-Agent军团24/7运营·多模态传感器融合·行为验证
 - **Web5** → DID确权+MPC隐私+链上存证·用户拥有自己的健康数据
-- **大健康基础数据设施** → PoPB v1.0 MIT开源·协议层·不是应用层
+- **大健康行为数据基础设施** → PoPB v1.0 MIT开源·协议层·不是应用层
 
 One node — a single gym in Dongguan, China — proved this for 7 years: a facial-recognition turnstile capturing every entry at 100% fidelity, zero spoofing. 118 paying members. ~380,000 verified sessions. On-chain proof hashes anchored to a consortium chain.
 
