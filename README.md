@@ -1,6 +1,6 @@
-# ZWISERFIT · Proof of Physical Behavior Protocol
+# ZWISERFIT · AI + Web5 大健康基础数据设施
 
-**The verification layer for human physical behavior.**
+**AI + Web5 大健康基础数据设施 — 用户拥有自己的健康数据，协议确保数据属于用户、不属于平台。**
 1 node · 7 years of data · 118 active members · 9 AI Agents · 100% capture rate
 ▶️ Watch Demo (90s) → [YouTube Unlisted Link]
 
@@ -55,23 +55,44 @@
 
 ---
 
+
 ## The Problem
+
+> **乐刻×平安证明了"运动行为数据值钱"。ZWF确保"数据属于用户，不属于平台"。**
 
 Every day, millions of gym visits generate verified physical activity — real human behavior worth billions to insurers and pharma. Platforms capture this data. Sell it. The person who generated it gets nothing. Zero consent. Zero ownership.
 
-No verification layer exists for human physical behavior. Helium verifies *where devices are*, Hivemapper verifies *map data*, GEODNET verifies *location*. None verify what humans actually DO.
+In 2025, Leke (乐刻健身), China's largest gym chain, partnered with Ping An Insurance (平安保险) — offering premium discounts based on verified workout frequency. The market signaled: behavioral data is valuable. But the data still belongs to the platform, not the user.
 
-That gap is what PoPB fills.
+What's missing is a **data infrastructure layer** that gives users ownership over their health data while making it verifiable for insurers and partners.
 
-## The Solution: Proof of Physical Behavior
+That gap is what ZWISERFIT fills.
 
-We believe the verification layer for human physical behavior will become as fundamental as TCP/IP. One node — a single gym in Dongguan, China — proved it for 7 years: a facial-recognition turnstile capturing every entry at 100% fidelity, zero spoofing.
+## The Solution: AI + Web5 大健康基础数据设施
 
-PoPB is not another DePIN project. It is the missing protocol primitive that makes human physical activity verifiable on-chain — distinct from PoPW (devices) and PoS (computation).
+ZWISERFIT = **AI + Web5 大健康基础数据设施** — the infrastructure layer that connects real physical behavior to fair outcomes through decentralized identity, proof-of-behavior verification, and privacy-preserving computation.
 
-**This is not a company. This is a category's technical standard being defined in public.**
+- **AI** → 9-Agent军团24/7运营·多模态传感器融合·行为验证
+- **Web5** → DID确权+MPC隐私+链上存证·用户拥有自己的健康数据
+- **大健康基础数据设施** → PoPB v1.0 MIT开源·协议层·不是应用层
+
+One node — a single gym in Dongguan, China — proved this for 7 years: a facial-recognition turnstile capturing every entry at 100% fidelity, zero spoofing. 118 paying members. ~380,000 verified sessions. On-chain proof hashes anchored to a consortium chain.
+
+**This is not a company. This is a technical standard for health data infrastructure being defined in public.**
 
 ---
+
+## 🔥 Why Now: The Convergence (D-Day, May 2026)
+
+Three independent research threads from two top-tier crypto VCs all point to the same empty space. None reference each other. All describe ZWISERFIT from different angles:
+
+| VC | Thesis | ZWISERFIT Fit |
+|-----|--------|---------------|
+| **Multicoin** ILM (Jan 2026) | "Internet Labor Markets" — Physical+Deterministic quadrant should exist | The missing row. 7 years of proof. |
+| **a16z** Arcade Tokens (May 2026) | "Verifiable physical actions → digital assets outside SEC securities laws" | PoPB = Arcade Token for fitness data |
+| **a16z** PMF Patterns (May 2026) | "AI agents becoming economic actors at machine speed" — Pattern #2 exponential curve | 9 AI Agents running a physical node 24/7 since March 2026 |
+
+**The empty space has an address:** Dongguan Wanjiang, Guangdong, China. 7 years of data. Not a white paper. A gym.
 
 ## 🔥 Why Now: The Convergence (D-Day, May 2026)
 
