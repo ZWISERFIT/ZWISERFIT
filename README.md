@@ -166,9 +166,24 @@ The founder didn't use AI. She gave birth to it — encoding years of frontline 
 
 ---
 
+## Open Source Strategy: Layered, Not All-Or-Nothing
+
+ZWISERFIT does not take a binary "open everything" or "close everything" approach. Each layer is independently governed by its role in our competitive moat.
+
+| Layer | Strategy | What's Open | What's Closed |
+|:--|:--|:--|:--|
+| 🟢 **Saros** | MIT Open Source | Momo SaaS stack, deployment scripts, merchant docs | Hardware binding logic |
+| 🟡 **KinTwin** | SDK Open · Core Closed | Hardware API, data format specs, integration examples | Nova behavior stream algorithm, Ethan hash protocol, firmware |
+| 🔴 **Zeus Protocol** | Specs Open · Kernel Closed | Agent communication standards, API docs, data format specs | Oracle decoder, valuation models, ACPI scheduling logic |
+| ⚫ **9-Agent Kernel** | Architecture Docs Only | Architecture diagrams, YC RFS alignment theory, design philosophy | Shuyu scheduler, Stella audit engine, four-stream topology code |
+
+**Why layered:** Open the application layer to build ecosystem (Direction 2). Close the data, protocol, and kernel layers to protect the moat (Directions 3, 8, 9, 15).
+
+---
+
 ## Contributing
 
-ZWISERFIT is open-source. We welcome developers, physical venue operators, and researchers.
+We welcome developers, physical venue operators, and researchers — especially to the open-source Saros layer.
 
 1. 🐛 Found a bug? → [Open an Issue](https://github.com/ZWISERFIT/ZWISERFIT/issues/new)
 2. 💡 Have an idea? → [Start a Discussion](https://github.com/ZWISERFIT/ZWISERFIT/discussions)
