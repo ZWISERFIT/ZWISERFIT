@@ -181,6 +181,36 @@ ZWISERFIT does not take a binary "open everything" or "close everything" approac
 
 ---
 
+## Repository Structure: Layered Open Source
+
+```
+ZWISERFIT/
+├── saros-open/          🟢 MIT 完全开源
+│   ├── momo-saas/           Momo 门店大脑 + SaaS 栈
+│   ├── deploy/              一键部署 · Docker · K8s
+│   ├── docs/                商户文档 · API参考
+│   └── community/           贡献指南 · 社区治理
+├── kin-twin-sdk/        🟡 SDK开源 · 核心闭源
+│   ├── api/                 Hardware API 规范
+│   ├── examples/            集成示例代码
+│   └── specs/               ZWF-20 数据标准
+├── zeus-protocols/      🔴 极小开放 · 协议文档
+│   ├── specs/               Agent通信协议规范
+│   └── api-docs/            API 参考文档
+└── 9-agent-kernel/      ⚫ 全闭源 · 架构图纸
+    ├── architecture/        四流拓扑 · 数据流图
+    └── design/              设计哲学 · 治理模型
+```
+
+| 目录 | 策略 | License | 说明 |
+|:--|:--|:--|:--|
+| [`saros-open/`](./saros-open/) | 🟢 MIT | MIT | 任何健身房可自由部署和定制 |
+| [`kin-twin-sdk/`](./kin-twin-sdk/) | 🟡 SDK Open | MIT (SDK) / Proprietary (Core) | API开放 · 算法/协议闭源 |
+| [`zeus-protocols/`](./zeus-protocols/) | 🔴 Docs Only | CC BY-NC-ND 4.0 | 通信标准公开 · Oracle闭源 |
+| [`9-agent-kernel/`](./9-agent-kernel/) | ⚫ Closed | Proprietary | 仅架构图纸供参考 |
+
+---
+
 ## Contributing
 
 We welcome developers, physical venue operators, and researchers — especially to the open-source Saros layer.
