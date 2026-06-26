@@ -118,7 +118,7 @@ Melody manages metabolism across three layers, powered by the same Momo kernel:
 
 > **"Women's hormonal lifecycle is systematically ignored as a core variable in cardiovascular disease risk modeling."**
 >
-> — **American Heart Association**, *Circulation* 2024 Scientific Statement
+> — **American Heart Association**, *Circulation* 2024 Official Scientific Statement
 
 There is a **30% structural gap** in health data infrastructure for women. Questionnaires cannot fill it. Wearables alone cannot fill it. It requires **offline continuous behavior streams + metabolic biomarkers + hormonal cycle tracking** — the exact three-dimensional pipeline that only KinTwin captures.
 
@@ -154,7 +154,7 @@ Facial-recognition Gate ──→ Cameras ──→ Body Scanner
 | **Verifiability** | Unverifiable (self-report) | **Unforgeable** (biometric identity + hash notarization) |
 | **Frequency** | Static, single-point | **Continuous**, daily — every gym visit = one behavior record |
 | **Dimensions** | Incomplete (only what users choose to report) | **3D complete** (energy + glycolipid + hormonal) |
-| **Sample** | Subjective self-reported user input | Hardware-authenticated objective behavioral records |
+| **Sample** | Subjective self-reported user input | Hardware-authenticated objective long-term behavioral records |
 
 Nourish validated the demand — but it can never deliver the real answer. KinTwin delivers what insurers actually need: unforgeable continuous behavior streams with cryptographic proof. ✅ **Stella Compliance Audit Verified**
 
@@ -268,7 +268,7 @@ In 2025, she completed the full PRD defining every layer of what would become ZW
 
 **The founder didn't catch up to AI. AI caught up to the blueprint she drew in 2025.**
 
-Her four identities — PwC auditor · Ping An Life Insurance 5 years (insurance pricing insider) · 7 years gym operations · AI system creator — are irreplicable. All nine Agent operating systems are encoded with her exclusive cross-industry cognition across audit, insurance underwriting, and offline venue operation. **This is not a team. This is a cognitive origin.** No competitor possesses this combination of domain cognition.
+Her four identities — PwC auditor · Ping An Life Insurance 5 years (insurance pricing insider) · 7 years gym operations · AI system creator — are irreplicable. All 9 vertical Agent operating systems are built on the founder's exclusive cross-industry cognition covering offline venue operation, insurance underwriting and risk audit — a cognitive moat that cannot be replicated by competitors relying solely on technical algorithms. **This is not a team. This is a cognitive origin.**
 
 > *The founder didn't use AI. She gave birth to it.*
 
