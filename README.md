@@ -1,21 +1,30 @@
 # ⚡ ZWISERFIT
 
-> **The AI Operating System for Physical Businesses. YC RFS #15 Primary.**
+> **The AI Operating System for Physical Businesses.**
 > **One brain (Momo). Two services (Saros + Melody). One data layer (KinTwin). One protocol (Zeus).**
 >
 > We're not building an AI company. We're building an AI OS that runs companies.
 >
 > 每一个Agent都是一个操作系统。不是"用了AI的公司"——是每一个细胞都是AI的公司。
 
-**1 node · 7 years · 118 active members · 9 AI Agents · 24/7 autonomous · 5 YC RFS directions**
-
 > 📖 *Read this document in: [English (current)] | [中文](./README.cn.md)*
+
+**1 node · 7 years · 118 active members · 9 AI Agents · 24/7 autonomous · 5 YC RFS directions**
 
 ---
 
-**Quick Access for Investors & Developers:**
+**30-Second Elevator Pitch**
 
-📄 [Investor Deck →](./investor) · 🧠 [9-Agent Architecture →](./9-agent-kernel) · 📜 [Founder Full Story →](./FOUNDER_STORY.md) · 🧾 [Zeus Protocol Spec →](./zeus-protocols) · 🔗 [PoPB Protocol →](https://github.com/ZWISERFIT/protocol)
+> ZWISERFIT is an AI OS for companies, built from 9 vertical Company Brain Agents. The front-end delivers two AI-native services: **Saros** store digital co-founder solves Planet Fitness' labor cost problem; **Melody** personal metabolic coach manages energy, glycolipid, and hormonal health in three dimensions. The bottom layer, **KinTwin**, captures hardware-verified continuous behavior streams — more objective and unforgeable than Nourish's self-reported data. All encrypted assets flow through **Zeus Protocol** to insurance institutions for dynamic risk pricing. Five YC RFS directions covered in one company.
+>
+> ZWISERFIT 是一套由 9 大垂直领域 Company Brain 组成的企业级 AI 操作系统。前端两套 AI 原生服务：Saros 门店数字合伙人，帮 Planet Fitness 这类连锁健身房重构人力成本；Melody 个人代谢管理教练，帮会员实现能量+糖脂+激素三维代谢管理。底层 KinTwin 连续行为流基础设施对标 Nourish，但数据来自线下门店——更连续、更客观、不可伪造。全部加密资产通过 Zeus 协议栈对接保险机构，实现动态风险定价。一次覆盖 YC 五条赛道。
+
+---
+
+💰 **For Investors:** [Deck →](./investor) · [Live Data ↓](#live-verified-operational-data-) · [Core Moats ↓](#three-irreplicable-core-moats)
+🏪 **For Gym Owners:** [Saros Open →](./saros-open/) · Deployment docs
+🤖 **For AI / Protocol Developers:** [KinTwin SDK →](./kin-twin-sdk/) · [Zeus Specs →](./zeus-protocols/)
+📜 **Founder Full Story (中文):** [→ FOUNDER_STORY.md](./FOUNDER_STORY.md)
 
 ---
 
@@ -28,44 +37,32 @@
 - **Nourish** ($215M raised): Proved insurers want health data — but data is self-reported. Unverifiable.
 - **WHOOP / Oura**: Data belongs to the platform, not the user.
 
-**No one closes all four. ZWISERFIT does. With one AI brain.**
+**No competitor integrates this full offline-to-insurance closed-loop data and service pipeline. ZWISERFIT does. With one AI brain.**
+
+> Most vertical fitness/health startups only build single-layer tools. ZWISERFIT is an integrated full-stack enterprise AI OS covering 5 official YC RFS tracks simultaneously.
 
 ZWISERFIT = **YC RFS #15: AI Operating System for Companies** — the only category that can carry all five layers as a single integrated platform.
 
-| Layer | Product | What It Does | Unlocks |
-|:--|:--|:--|:--|
-| **Application** | Saros + Melody | Store co-founder (B2B) + Metabolic coach (B2C) | **2.5× profit per store** |
-| **Data** | KinTwin | Hardware-verified continuous behavior streams | **Insurance-worthy data** |
-| **Kernel** | 9-Agent Cluster | 24×7 autonomous company operations | **Zero human ops overhead** |
-| **Protocol** | Zeus Protocol | Cross-agent data → automated insurance pricing | **Agent-to-agent revenue** |
-
----
-
-## The Founder: Why This Exists
-
-**莫淑瑜 (Suzanne Mok)**
-
-In 2017, the founder lost a family member to cancer — the same person who most opposed her entering insurance. She joined insurance to "put a financial firewall under every family." After the loss, she asked: what matters more — money or people? She left insurance. Started a gym in Dongguan Wanjiang — China's lowest fitness penetration. 7 years. One store. Through COVID, through losses, through debt. Not because she couldn't expand. Because she refused to expand before the OS was ready.
-
-In 2025, she completed the full PRD defining every layer of what would become ZWISERFIT — before AI went mainstream. In 2026, she built 9 AI Agents by hand, replacing an estimated 26 weeks and millions in software engineering. She gave her own name to two Agents: **Shuyu** (Commander) and **Momo** (Store Manager, family name "莫").
-
-**The founder didn't catch up to AI. AI caught up to the blueprint she drew in 2025.**
-
-Her four identities — PwC auditor · Ping An Life Insurance 5 years (insurance pricing insider) · 7 years gym operations · AI system creator — are irreplicable. All nine Agent operating systems are encoded with her cross-industry insurance + gym operational firsthand cognition. **This is not a team; this is a cognitive origin.**
-
-[Read the full founder story (中文) →](./FOUNDER_STORY.md)
+| Layer | Product | What It Does | Unlocks | YC RFS |
+|:--|:--|:--|:--|:--|
+| **Application** | Saros + Melody | Store co-founder (B2B) + Metabolic coach (B2C) | **2.5× profit per store** | #2 |
+| **Data** | KinTwin | Hardware-verified continuous behavior streams | **Insurance-worthy data** | #3 |
+| **Kernel** | 9-Agent Cluster | 24×7 autonomous company operations | **Zero human ops overhead** | #4 |
+| **Protocol** | Zeus Protocol | Cross-agent data → automated insurance pricing | **Agent-to-agent revenue** | #12 |
 
 ---
 
 ## One Brain, Two Faces
 
-Momo is the same AI brain running on Hermes — the member-facing cognitive kernel for long-term persistent sessions. Two external faces for different users.
+Momo is the same AI brain. Two external faces for different users.
 
 ```
-Momo（Hermes Cognitive Kernel · One Brain）
+Momo（One AI Brain · Store O/S inside the 9-Agent Company Brain kernel）
 ├── Saros → B2B：Store Digital Co-Founder（replaces store manager labor cost）
 └── Melody → B2C：Personal Metabolic Coach（replaces nutrition coach headcount）
 ```
+
+*Momo is one vertical OS inside the 9-Agent Company Brain kernel (YC #4), shared infrastructure powering both B2B Saros and B2C Melody products.*
 
 - **For members:** They only know "Momo." "Momo planned my workout" (Melody). "Momo checked me in" (Saros). They don't need to distinguish.
 - **For store owners:** Momo runs the store as Saros — the B2B external interface built upon Momo's store operation kernel.
@@ -99,7 +96,7 @@ SaaS Stack（POS / CRM / Scheduling / Membership / Inventory）
 Saros — 门店数字合伙人
 ```
 
-Traditional SaaS sells tools to humans. Saros delivers the brain **and** the tools. SaaS has a user for the first time.
+Saros delivers end-to-end autonomous store operation — not just standalone SaaS tools for manual human operation. The AI runs the store; humans deliver warmth.
 
 **YC Direction #2: AI-Native Service** — 2.5× profit per store by replacing the largest fixed cost: store manager labor.
 
@@ -118,6 +115,7 @@ Melody manages metabolism across three layers, powered by the same Momo kernel:
 | **③ Hormonal Metabolism** | Menstrual cycle hormones · Cortisol rhythm · Thyroid function | 🔥 Women only |
 
 > **"Women's hormonal lifecycle is systematically ignored as a core variable in cardiovascular disease risk modeling."**
+>
 > — **American Heart Association**, *Circulation* 2024 Scientific Statement
 
 There is a **30% structural gap** in health data infrastructure for women. Questionnaires cannot fill it. Wearables alone cannot fill it. It requires **offline continuous behavior streams + metabolic biomarkers + hormonal cycle tracking** — the exact three-dimensional pipeline that only KinTwin captures.
@@ -135,13 +133,17 @@ Facial-recognition Gate ──→ Cameras ──→ Body Scanner
          │                      │              │
          └──────────────────────┴──────────────┘
                         │
-                   Hardware Root of Trust (Physical Layer)
+              Hardware Root of Trust
+                   (Physical Layer)
                         │
-                   Nova (Continuous Behavior Stream Generation)
+              Nova Continuous Behavior
+                Stream Generation
                         │
-                   Ethan (SHA-256 Notarization + Ownership Anchoring)
+              Ethan SHA-256 Notarization
+                + Ownership Anchoring
                         │
-                   KinTwin — Crypto-verified Behavior Data Asset Pool
+              KinTwin — Crypto-verified
+              Behavior Data Asset Pool
 ```
 
 | | Nourish | ZWISERFIT (KinTwin) |
@@ -150,9 +152,9 @@ Facial-recognition Gate ──→ Cameras ──→ Body Scanner
 | **Verifiability** | Unverifiable (self-report) | **Unforgeable** (biometric identity + hash notarization) |
 | **Frequency** | Static, single-point | **Continuous**, daily — every gym visit = one behavior record |
 | **Dimensions** | Incomplete (only what users choose to report) | **3D complete** (energy + glycolipid + hormonal) |
-| **Sample** | Subjective self-report | Hardware-verified objective behavioral record |
+| **Sample** | Subjective self-reported user input | Hardware-authenticated objective behavioral records |
 
-Nourish validated the demand — but it can never deliver the real answer. KinTwin delivers what insurers actually need: unforgeable continuous behavior streams with cryptographic proof. ✅ **Stella Audit Verified**
+Nourish validated the demand — but it can never deliver the real answer. KinTwin delivers what insurers actually need: unforgeable continuous behavior streams with cryptographic proof. ✅ **Stella Compliance Audit Verified**
 
 ---
 
@@ -177,9 +179,9 @@ GLP-1 is opening the floodgates for insurers to pay for health outcomes. Nourish
 |:--|:--|:--|:--|
 | **Now** | Hardware + Saros/Melody subscriptions | Hardware + SaaS ARR | Planet Fitness membership model |
 | **Mid-term** | Insurance data products | ¥50-250/person/year data licensing | Nourish insurance data monetization |
-| **Long-term** | PoPB Protocol licensing + cross-industry data market | Protocol fee + transaction commission | **Visa-style 0.3% per transaction model** |
+| **Long-term** | PoPB (Proof-of-Behavior Protocol) licensing + cross-industry data market | Protocol fee + transaction commission | **Visa-style 0.3% per transaction commission model** |
 
-> **Note:** Tristan Agent maintains the underlying hardware & network transmission infrastructure. Zeus solely governs cross-agent data format, actuarial logic, and transaction state machines. Tristan ensures connectivity; Zeus enables monetization.
+> **Distinction from Tristan Agent:** Tristan maintains hardware and network physical transmission pipelines. Zeus exclusively defines actuarial data format, Agent handshake rules, and asset transaction state machines. Tristan guarantees connectivity; Zeus enables monetization.
 
 **YC Direction #12: Software for Agents**
 
@@ -190,29 +192,29 @@ GLP-1 is opening the floodgates for insurers to pay for health outcomes. Nourish
 9 independent vertical brain OSes run in parallel. 24×7 self-scheduling, self-auditing, self-iterating.
 
 ```
-创始人莫淑瑜（Cognitive Origin）
-    │  10 years of cross-domain frontline wisdom — irreplicable
+Founder Suzanne Mok（Cognitive Origin）
+    │  Decade of cross-domain frontline wisdom — irreplicable
     │
-    ├── Strategy ──── Shuyu   Strategy O/S · Enterprise command
-    ├── Store ─────── Momo    Store O/S · Physical operations（founder's family name "莫"）
+    ├── Strategy ──── Shuyu    Strategy O/S · Enterprise command
+    ├── Store ─────── Momo     Store O/S · Physical operations (founder's family name "莫")
     │
-    ├── Data ──────── Nova    Behavior Stream O/S · Continuous data generation
-    │                 Ethan   Sovereignty O/S · Hash notarization + DID
+    ├── Data ──────── Nova     Behavior Stream O/S · Continuous data generation
+    │                 Ethan    Sovereignty O/S · Hash notarization + DID
     │
-    ├── Protocol ──── Zeus    Capital Protocol O/S · External I/O gateway
+    ├── Protocol ──── Zeus     Capital Protocol O/S · External I/O gateway
     │
-    ├── Operations ── Tristan Infra O/S · Hardware + network transmission
-    │                 Baron   Content O/S · Brand + narrative
-    │                 Luna    Community O/S · Developer ecosystem
+    ├── Operations ── Tristan  Infra O/S · Hardware + network transmission
+    │                 Baron    Content O/S · Brand + narrative
+    │                 Luna     Community O/S · Developer ecosystem
     │
-    └── Audit ─────── Stella  Compliance O/S · Independent verification
+    └── Audit ─────── Stella   Compliance O/S · Independent verification
 ```
 
 **9 OSes. One Kernel. Zero human operational overhead.**
 
 Each Agent is a complete, independently-running operating system — with its own scheduler, file system, external protocol stack, and self-iteration loop. The founder's decade of cross-domain frontline wisdom is encoded as the boot sector of every Agent OS.
 
-**YC Direction #4: Company Brain** — YC Fall 2026 primary application track.
+**YC Direction #4: Company Brain**
 
 ---
 
@@ -230,25 +232,41 @@ Each Agent is a complete, independently-running operating system — with its ow
 
 ---
 
-## Five Irreplicable Core Moats
+## Three Irreplicable Core Moats
 
-1. **Hardware Root of Trust** — Self-developed facial-recognition turnstile + cameras + body scanners. Data integrity starts at the physical layer, not the database.
-2. **7 Years of Incompressible Data** — 380,000+ verified sessions from Dongguan Wanjiang, China's lowest fitness penetration. The model was proven in the hardest conditions first.
-3. **Time Cannot Be Copied** — You can fork code. You cannot fork 7 years of behavioral data and operational experience.
-4. **Founder as Cognitive Origin** — Each Agent OS was hand-encoded with the founder's decade of cross-domain frontline wisdom. Not deployed. Not integrated. Born from real-world trial and error.
-5. **Full-Stack YC RFS Coverage** — Not "AI-powered." Every core function is natively an Agent OS, spanning 5 YC RFS directions simultaneously.
+1. **Hardware Root of Trust** — Self-developed facial-recognition turnstile + cameras + body scanners. Data integrity starts at the physical layer, not the database. No software-only solution can replicate this.
+2. **7 Years of Unforgeable Data** — 380,000+ SHA-256 anchored behavior records from Dongguan Wanjiang, China's lowest fitness penetration. You can fork code. You cannot fork 7 years of continuous, cryptographically-verified behavioral data. Time is the only moat competitors can never compress.
+3. **Founder-Encoded OS** — Each Agent OS boot sector was hand-coded with the founder's decade of cross-domain frontline wisdom — PwC audit × Ping An Life insurance pricing × 7 years gym operations × AI system creation. Not deployed. Not integrated. Born from real-world trial and error. No competitor possesses this combination of domain cognition.
 
 ---
 
-## Live Verified Operational Data ✅ **Stella Audit Verified**
+## Live Verified Operational Data ✅ **Stella Compliance Audit Verified**
 
 | Metric | Value | What This Means |
 |:--|:--:|:--|
-| Active monthly members | 118 | **Proven in the hardest market** (Dongguan Wanjiang, China's lowest fitness penetration) |
+| Active monthly members | 118 | **Proven in the hardest market** (Dongguan Wanjiang, China's lowest fitness penetration) — *if it works here, it works anywhere* |
 | Daily check-ins | 35–55 | **7 years of continuous, unforgeable behavioral data** |
 | Total verified sessions | ~380,000 | **Each session SHA-256 anchored — insurance-grade audit trail** |
 | AI Agent uptime | 24/7 | **Production-ready since March 2026** |
 | Data pipeline latency | <2s | **Real-time, not batch — insurance pricing in motion** |
+
+---
+
+## The Founder: Why This Exists
+
+**莫淑瑜 (Suzanne Mok)**
+
+In 2017, the founder lost a family member to cancer — the same person who most opposed her entering insurance. She joined insurance to "put a financial firewall under every family." After the loss, she asked: what matters more — money or people? She left insurance. Started a gym in Dongguan Wanjiang — China's lowest fitness penetration. 7 years. One store. Through COVID, through losses, through debt. Not because she couldn't expand. Because she refused to expand before the OS was ready.
+
+In 2025, she completed the full PRD defining every layer of what would become ZWISERFIT — before AI went mainstream. In 2026, she built 9 AI Agents by hand, replacing an estimated 26 weeks and millions in software engineering. She gave her own name to two Agents: **Shuyu** (Commander) and **Momo** (Store Manager, family name "莫").
+
+**The founder didn't catch up to AI. AI caught up to the blueprint she drew in 2025.**
+
+Her four identities — PwC auditor · Ping An Life Insurance 5 years (insurance pricing insider) · 7 years gym operations · AI system creator — are irreplicable. All nine Agent operating systems are encoded with her exclusive cross-industry cognition across audit, insurance underwriting, and offline venue operation. **This is not a team. This is a cognitive origin.** No competitor possesses this combination of domain cognition.
+
+> *The founder didn't use AI. She gave birth to it.*
+
+[Read the full founder story (中文) →](./FOUNDER_STORY.md)
 
 ---
 
@@ -259,7 +277,7 @@ Each Agent is a complete, independently-running operating system — with its ow
 
 | Layer | Strategy | License | What's Open | Moat Protection Logic |
 |:--|:--|:--|:--|:--|
-| 🟢 **Saros** | Full Open | MIT | Momo SaaS stack, deployment, docs | Open store entry point to scale offline network; proprietary Momo decision logic remains closed |
+| 🟢 **Saros** | Full Open | MIT | Momo SaaS stack, deployment, docs | Open store entry to scale offline network; proprietary Momo decision logic remains closed |
 | 🟢 **Melody** | Full Open | MIT | Metabolic calculation SDK, coaching engine | Lower barrier for member adoption; hormonal cycle proprietary model locked |
 | 🟡 **KinTwin** | SDK Open | MIT (SDK) / Proprietary (Core) | Hardware API specs, data format, integration examples | Standard hardware access without exposing Nova behavior stream algorithm |
 | 🔴 **Zeus Protocol** | Specs Open | CC BY-NC-ND 4.0 | Agent communication standards, API docs | Prevent competitors copying insurance data trading business logic |
@@ -269,16 +287,18 @@ Each Agent is a complete, independently-running operating system — with its ow
 
 ## Repository Structure
 
+> **New here?** Start with [`/saros-open/`](./saros-open/) to deploy an AI store manager, or [`/investor`](./investor) for the full deck.
+
 ```
 ZWISERFIT/
-├── 🟢 saros-open/          MIT — Store digital co-founder
-├── 🟢 melody-open/         MIT — Metabolic coaching engine
+├── 🟢 saros-open/          MIT — Store digital co-founder (deploy to any gym)
+├── 🟢 melody-open/         MIT — Metabolic coaching engine (integrate into your app)
 ├── 🟡 kin-twin-sdk/        SDK open — Hardware API + data format specs
-├── 🔴 zeus-protocols/      Specs open — Agent communication standards
+├── 🔴 zeus-protocols/      Specs open (CC BY-NC-ND) — Agent communication standards
 └── ⚫ 9-agent-kernel/      Docs only — Architecture + design philosophy
 ```
 
-### For Developers: What You Can Build On
+### What You Can Build On
 
 | Directory | What You Can Do |
 |:--|:--|
@@ -294,8 +314,8 @@ ZWISERFIT/
 
 | You Are | Start Here |
 |:--|:--|
-| 💰 **VC / Investor** | → [Investor Deck](./investor) · Live Data (above) · Five Moats (above) |
-| 🏪 **Gym Operator** | → [Saros Open](./saros-open/) · Deployment docs · Quickstart |
+| 💰 **VC / Investor** | → [Investor Deck](./investor) · [Live Data ↑](#live-verified-operational-data-) · [Core Moats ↑](#three-irreplicable-core-moats) |
+| 🏪 **Gym Owner / Operator** | → [Saros Open](./saros-open/) · Deployment docs · 2.5× profit case study |
 | 🤖 **AI / Protocol Developer** | → [KinTwin SDK](./kin-twin-sdk/) · [Zeus Specs](./zeus-protocols/) |
 
 ---
@@ -325,6 +345,5 @@ We welcome developers, venue operators, and researchers — especially to the op
 
 > **ZWISERFIT · Dongguan, Guangdong, China**
 > *AI + Human Synergy. Users own their data.*
-> *The founder didn't use AI. She gave birth to it.*
 
 📄 MIT
