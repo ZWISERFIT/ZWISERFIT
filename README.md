@@ -124,7 +124,7 @@ There is a **30% structural gap** in health data infrastructure for women. Quest
 
 **No competitor can replicate the offline hormonal cycle tracking pipeline.**
 
-**YC Direction #3: AI-Native Personalized Medicine** — Angel round narrative entry point. The most tangible, investable wedge into the full platform story.
+**YC Direction #2: AI-Native Service** — zero marginal cost metabolic coaching, powered by the same Momo kernel.
 
 ---
 
@@ -157,6 +157,8 @@ Facial-recognition Gate ──→ Cameras ──→ Body Scanner
 | **Sample** | Subjective self-reported user input | Hardware-authenticated objective behavioral records |
 
 Nourish validated the demand — but it can never deliver the real answer. KinTwin delivers what insurers actually need: unforgeable continuous behavior streams with cryptographic proof. ✅ **Stella Compliance Audit Verified**
+
+**YC Direction #3: AI-Native Personalized Medicine** — Angel round narrative entry point. The most tangible, investable wedge into the full platform story.
 
 ---
 
