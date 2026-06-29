@@ -6,6 +6,7 @@
 > We're not building an AI company. We're building an AI OS that runs companies.
 >
 > 每一个Agent都是一个操作系统。不是"用了AI的公司"——是每一个细胞都是AI的公司。
+[![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=zwiserfit)](https://www.producthunt.com/posts/zwiserfit)
 
 > 📖 *Read this document in: [English (current)] | [中文](./README.cn.md)*
 
